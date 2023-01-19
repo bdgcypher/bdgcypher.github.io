@@ -20,8 +20,7 @@ export default function Hero() {
                         <p className="text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>
                         <p className="mt-2 text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
                         <p className="ml-10 text-black dark:text-white text-lg md:text-2xl">
-                            I am a <b>fun-loving Frontend developer, Designer,</b> and <b>Tech enthusiast</b> with experience building Web applications with
-                            <b> TypeScript, Reactjs, Nextjs, Tailwindcss</b> and other awesome libraries and frameworks.
+                           I {}
                         </p>
                         <p className="text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
                     </div>
