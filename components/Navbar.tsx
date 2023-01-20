@@ -56,7 +56,6 @@ export default function Navbar() {
                                     <a href="#home" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Home</a>
                                     <a href="#about" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">About</a>
                                     <a href="#discover" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Discover</a>
-                                    <a href="#services" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Services</a>
                                     <a href="#contact" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Contact</a>
                                 </div>
                                 <div className="absolute top-1 right-10 -mr-2 flex items-center md:hidden">
@@ -110,7 +109,6 @@ export default function Navbar() {
                                     <a className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Home</a>
                                     <a className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">About</a>
                                     <a className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Discover</a>
-                                    <a className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Services</a>
                                 </div>
                             </div>
                             <div className="pt-5 pb-6 justify-center items-center">
