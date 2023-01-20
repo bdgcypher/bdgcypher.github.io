@@ -6,7 +6,7 @@ export default function About() {
 
     return (
         <div id="about" className="h-screen pt-10 md:pt-40 bg-white dark:bg-black text-black dark:text-white">
-            <div className="px-4 md:px-20">
+            <div className="px-4 lg:px-20">
                 <div className="flex flex-col md:flex-row justify-center">
                     <Tilt>
                         <div className="flex flex-row md:hidden mb-16 justify-center">
@@ -21,7 +21,7 @@ export default function About() {
                     </Tilt>
 
 
-                    <div className="flex flex-col max-w-xl">
+                    <div className="flex flex-col w-full max-w-xl">
                         <p className="text-gray-400 text-md md:text-xl">&#60;h1&#62;</p>
                         <h1 className="ml-10 text-black dark:text-white font-bold text-3xl md:text-5xl">Creative, Excited, Hardworking</h1>
                         <p className="text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>

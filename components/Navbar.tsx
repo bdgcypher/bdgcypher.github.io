@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { SlMenu } from 'react-icons/sl'
@@ -8,14 +8,35 @@ import { FiMoon, FiSun } from 'react-icons/fi'
 export default function Navbar() {
 
     const [darkMode, setDarkMode] = useState(false)
+
+    const setSystemTheme = () => {
+        if (
+            localStorage.getItem('color-theme') === 'dark' ||
+            (!('color-theme' in localStorage) &&
+                window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ) {
+            document.documentElement.classList.add('dark');
+            setDarkMode(true);
+        } else {
+            document.documentElement.classList.remove('dark');
+            setDarkMode(false);
+        }
+    }
+
     const switchTheme = () => {
         if (darkMode === true) {
+            localStorage.setItem('color-theme', 'light');
             document.documentElement.classList.remove('dark');
         } else {
+            localStorage.setItem('color-theme', 'dark');
             document.documentElement.classList.add('dark');
         }
         setDarkMode(!darkMode);
     }
+
+    useEffect(() => {
+        setSystemTheme();
+    }, []);
 
 
     return (
