@@ -4,7 +4,8 @@ import { HiOutlineMail } from "react-icons/hi"
 const navigation = [
     {
         name: 'GitHub',
-        href: '#',
+        href: 'https://github.com/bdgcypher',
+        target: '_blank',
         icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
             <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
                 <path
@@ -17,7 +18,7 @@ const navigation = [
     },
     {
         name: 'Email',
-        href: '#',
+        href: 'mailto:bdgcypher@gmail.com',
         icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
             <HiOutlineMail className="text-2xl" />
         ),
@@ -28,7 +29,7 @@ export default function Footer() {
     return (
         <footer className="bg-white dark:bg-black">
             <div className="text-center mx-auto w-2/3 md:w-full">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl">Each day is a chance for an <span className="text-primary">Adventure</span>.</h1>
+                <h1 className="text-black dark:text white text-3xl md:text-4xl lg:text-5xl">Each day is a chance for an <span className="text-primary">Adventure</span>.</h1>
                 <div className="mt-2 text-gray-400 text-md md:text-xl">
                     <p>&#47;&#47; So make it count.</p>
                 </div>
@@ -36,7 +37,7 @@ export default function Footer() {
             <div className="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
                 <div className="flex justify-center space-x-6 md:order-2">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+                        <a key={item.name} href={item.href} target={item.target} className="text-gray-400 hover:text-gray-500">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-6 w-6" aria-hidden="true" />
                         </a>
