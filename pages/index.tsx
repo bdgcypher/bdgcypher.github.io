@@ -8,6 +8,7 @@ import Contact from '../components/index/Contact'
 import GetInTouch from '../components/index/GetInTouch'
 import Testimonials from '../components/index/Testimonials'
 import AnimatedMe from '../components/index/AnimatedMe'
+import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,7 +29,8 @@ export default function Home() {
       <Contact />
       <Testimonials />
       <AnimatedMe />
-      {/* <GetInTouch /> */}
+      <GetInTouch />
+      <Footer />
 
     </>
   )

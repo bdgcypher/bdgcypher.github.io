@@ -23,7 +23,6 @@ export default function Discover() {
                     <p className="text-gray-400 text-md md:text-xl line-through">&#47;&#47; Code a cool grid with a</p>
                     <p className="text-gray-400 text-md md:text-xl line-through">&#47;&#47; few recent projects here &#8595;&#8595;&#8595;</p>
                 </div>
-                {/* <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2"> */}
                 <div className="flex flex-col lg:flex-row gap-6">
                     <a  target="_blank" href="https://withbranch.com/" aria-label="View Item" className="h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl">

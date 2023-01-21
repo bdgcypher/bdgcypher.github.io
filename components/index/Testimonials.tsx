@@ -8,8 +8,8 @@ export default function Testimonials() {
                     <h2 className="max-w-lg mb-6 font-sans text-3xl font-semibold leading-none tracking-tight text-black dark:text-white sm:text-4xl md:mx-auto">
                         Testimonials
                     </h2>
-                    <p className="text-gray-700 dark:text-gray-300 md:text-lg">
-                        Some people I've worked with have some nice things to say...
+                    <p className="text-gray-400 text-md md:text-xl">
+                        &#47;&#47; Maybe some people I've worked with have some nice things to say...
                     </p>
                 </div>
                 <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
