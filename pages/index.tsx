@@ -6,7 +6,8 @@ import About from '../components/index/About'
 import Discover from '../components/index/Discover'
 import Contact from '../components/index/Contact'
 import GetInTouch from '../components/index/GetInTouch'
-import { Testimonials } from '../components/index/Testimonials'
+import Testimonials from '../components/index/Testimonials'
+import AnimatedMe from '../components/index/AnimatedMe'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Discover />
       <Contact />
       <Testimonials />
+      <AnimatedMe />
       {/* <GetInTouch /> */}
 
     </>
