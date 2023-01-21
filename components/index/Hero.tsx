@@ -1,5 +1,6 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
+import TypeIt from "typeit-react";
 
 export default function Hero() {
 
@@ -15,14 +16,16 @@ export default function Hero() {
                     </Tilt>
 
                     <div className="flex flex-col w-full max-w-xl">
-                        <p className="text-gray-400 text-md md:text-xl">&#60;h1&#62;</p>
-                        <h1 className="ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Hello, World! I'm Ben</h1>
-                        <p className="text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>
-                        <p className="mt-2 text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
-                        <p className="ml-10 text-black dark:text-white text-lg md:text-2xl">
-                           I {}
-                        </p>
-                        <p className="text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
+                        <TypeIt options={{speed: 20, waitUntilVisible: true}}>
+                            <p className="text-gray-400 text-md md:text-xl">&#60;h1&#62;</p>
+                            <h1 className="ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Hello, World! I'm Ben</h1>
+                            <p className="text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>
+                            <p className="mt-2 text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
+                            <p className="ml-10 text-black dark:text-white text-lg md:text-2xl">
+                                I am a developer, designer, and coder.
+                            </p>
+                            <p className="text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
+                        </TypeIt>
                     </div>
                     <Tilt>
                         <div className="hidden lg:flex justify-center">
