@@ -1,7 +1,23 @@
 import React, { useState } from "react";
-import { FaHandshake } from "react-icons/fa";
 
 export default function GetInTouch() {
+
+    const setSmile = () => {
+        const smile = document.getElementById("smile")
+        smile != null ? (
+            smile.classList.add("opacity-100"),
+            smile.classList.remove("opacity-0")
+        ) : (null)
+    }
+
+    const removeSmile = () => {
+        const smile = document.getElementById("smile")
+        smile != null ? (
+            smile.classList.remove("opacity-100"),
+            smile.classList.add("opacity-0")
+        ) : (null)
+    }
+
 
     return (
         <>
@@ -17,7 +33,7 @@ export default function GetInTouch() {
                                 <p className="mt-4 mb-10 lg:mt-0 w-full lg:w-1/4 mx-auto max-w-2xl text-xl text-gray-700 dark:text-gray-300">
                                     Schedule a time to meet. I can't wait to hear your idea!
                                 </p>
-                                <a href="/contact" className="h-10 ml-0 px-8 pt-1 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 text-white text-xl rounded-full shadow-xl">
+                                <a href="/contact" onMouseEnter={()=>{setSmile()}} onMouseLeave={()=>{removeSmile()}} className="h-10 ml-0 px-8 pt-1 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 text-white text-xl rounded-full shadow-xl">
                                     Let's do this!
                                 </a>
                             </div>

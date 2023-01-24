@@ -10,10 +10,13 @@ module.exports = {
         snow: '#FDF8FA',
         onyx: '#3C3E3E',
         raisin: '#2A2828',
+        brown: '#b5aa9a',
         primary: '#E22866',
         secondary: '#21E4E8',
         tertiary: '#FDEDF2',
-
+      },
+      strokeWidth: {
+        '8': '8px',
       }
     },
   },

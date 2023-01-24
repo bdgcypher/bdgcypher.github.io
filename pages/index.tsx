@@ -1,5 +1,5 @@
+import React, { useState } from 'react'
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
 import Hero from '../components/index/Hero'
 import Navbar from '../components/Navbar'
 import About from '../components/index/About'
@@ -9,10 +9,13 @@ import GetInTouch from '../components/index/GetInTouch'
 import Testimonials from '../components/index/Testimonials'
 import AnimatedMe from '../components/index/AnimatedMe'
 import Footer from '../components/Footer'
-
-const inter = Inter({ subsets: ['latin'] })
+import { useMousePosition } from '../components/useMousePosition'
+import animateSvg from '../components/index/animateSvg'
 
 export default function Home() {
+
+  const mousePosition = useMousePosition()
+
   return (
     <>
       <Head>
@@ -22,16 +25,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      <Hero />
-      <About />
-      <Discover />
-      <Contact />
-      <Testimonials />
-      <AnimatedMe />
-      <GetInTouch />
-      <Footer />
-
+      <div onMouseMove={() => { animateSvg(mousePosition)}}>
+        <Navbar />
+        <Hero />
+        <About />
+        <Discover />
+        <Contact />
+        <Testimonials />
+        <AnimatedMe />
+        <GetInTouch />
+        <Footer />
+      </div>
     </>
   )
 }
