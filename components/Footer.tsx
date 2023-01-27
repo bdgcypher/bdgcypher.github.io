@@ -29,7 +29,7 @@ export default function Footer() {
     return (
         <footer className="bg-white dark:bg-black">
             <div className="text-center mx-auto w-2/3 md:w-full">
-                <h1 className="text-black dark:text white text-3xl md:text-4xl lg:text-5xl">Each day is a chance for an <span className="text-primary">Adventure</span>.</h1>
+                <h1 className="text-black dark:text-white text-3xl md:text-4xl lg:text-5xl">Each day is a chance for an <span className="text-primary">Adventure</span>.</h1>
                 <div className="mt-2 text-gray-400 text-md md:text-xl">
                     <p>&#47;&#47; So make it count.</p>
                 </div>

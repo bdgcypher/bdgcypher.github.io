@@ -15,8 +15,8 @@ export default function Hero() {
                         </div>
                     </Tilt>
 
-                    <div className="flex flex-col w-full max-w-xl">
-                        <TypeIt options={{speed: 20, waitUntilVisible: true}}>
+                    <div className="flex flex-col h-60 w-full max-w-xl">
+                        <TypeIt options={{ speed: 20, waitUntilVisible: true }}>
                             <p className="text-gray-400 text-md md:text-xl">&#60;h1&#62;</p>
                             <h1 className="ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Hello, World! I'm Ben</h1>
                             <p className="text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>
@@ -41,7 +41,6 @@ export default function Hero() {
             <svg className="-mt-0 lg:-mt-10 lg:-mt20 hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#1E1F1F" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
             </svg>
-            <div className=" h-0 bg-white"></div>
         </div>
     )
 }

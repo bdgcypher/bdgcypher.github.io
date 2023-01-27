@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .eye {
-  fill:#E22866;
+  fill: #e22866;
 }
 
 html,
@@ -43,18 +41,6 @@ a {
   }
 }
 
-#background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #0B090A;
-    transition: all 1s;
-    transition-delay: 4s;
-    justify-content: center;
-}
-
 /*  scrollbar width */
 ::-webkit-scrollbar {
   width: 6px;
@@ -68,7 +54,7 @@ a {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: transparent;
-  border-color: #ECF2FE;
+  border-color: #ecf2fe;
   border-width: 1px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5) inset;
@@ -79,7 +65,7 @@ a {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 4px solid #E22866;
+  border: 4px solid #e22866;
   top: 50%;
   left: 50%;
   animation: loader 2s infinite ease;
@@ -89,7 +75,7 @@ a {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #E22866;
+  background-color: #e22866;
   animation: loader-inner 2s infinite ease-in;
 }
 
@@ -97,19 +83,19 @@ a {
   0% {
     transform: rotate(0deg);
   }
-  
+
   25% {
     transform: rotate(180deg);
   }
-  
+
   50% {
     transform: rotate(180deg);
   }
-  
+
   75% {
     transform: rotate(360deg);
   }
-  
+
   100% {
     transform: rotate(360deg);
   }
@@ -119,24 +105,24 @@ a {
   0% {
     height: 0%;
   }
-  
+
   25% {
     height: 0%;
   }
-  
+
   50% {
     height: 100%;
   }
-  
+
   75% {
     height: 100%;
   }
-  
+
   100% {
     height: 0%;
   }
 }
 
 .loaded {
-    opacity: 0;
+  opacity: 0;
 }

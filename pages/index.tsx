@@ -16,8 +16,24 @@ export default function Home() {
 
   const mousePosition = useMousePosition()
 
+  const observePage = () => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated');
+        } else {
+          entry.target.classList.remove('animated')
+        }
+      })
+    })
+
+    const elementsToAnimate = document.querySelectorAll('.to-animate')
+    console.log(elementsToAnimate)
+    elementsToAnimate.forEach((element) => observer.observe(element))
+  }
+
   return (
-    <>
+    <div onLoad={() => {observePage()}}>
       <Head>
         <title>Benjamin Goddard</title>
         <meta name="description" content="Frontend developer, Designer, and Tech enthusiast." />
@@ -36,6 +52,6 @@ export default function Home() {
         <GetInTouch />
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
