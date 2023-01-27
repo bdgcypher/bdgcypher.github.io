@@ -25,7 +25,7 @@ export default function GetInTouch() {
             <div className="bg-white dark:bg-black pb-24">
                 <div className="relative py-16">
                     <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-                        <div className="relative -mt-40 rounded-2xl px-6 pt-10 lg:pt-20 pb-10 bg-snow dark:bg-onyx overflow-hidden shadow-xl sm:px-12">
+                        <div className="to-animate from-left relative -mt-40 rounded-2xl px-6 pt-10 lg:pt-20 pb-10 bg-snow dark:bg-onyx overflow-hidden shadow-xl  sm:px-12">
                             <div className=" flex flex-col lg:flex-row sm:text-center">
                                 <h2 className="text-3xl font-extrabold text-black dark:text-white tracking-tight sm:text-4xl">
                                     Looking to start a project?

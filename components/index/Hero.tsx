@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaPaintBrush } from 'react-icons/fa'
 import Tilt from 'react-parallax-tilt';
 import TypeIt from "typeit-react";
 
@@ -10,25 +11,28 @@ export default function Hero() {
             <div className="px-4 md:px-20">
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
-                        <div className="flex flex-row lg:hidden mb-16 justify-center">
+                        <div className="to-animate scale-up flex flex-row lg:hidden mb-16 justify-center">
                             <img src="/manOnTable.svg" className="w-2/3" />
                         </div>
                     </Tilt>
 
                     <div className="flex flex-col h-60 w-full max-w-xl">
-                        <TypeIt options={{ speed: 20, waitUntilVisible: true }}>
+                        <TypeIt options={{ speed: 10, waitUntilVisible: true }}>
                             <p className="text-gray-400 text-md md:text-xl">&#60;h1&#62;</p>
                             <h1 className="ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Hello, World! I'm Ben</h1>
                             <p className="text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>
                             <p className="mt-2 text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
-                            <p className="ml-10 text-black dark:text-white text-lg md:text-2xl">
-                                I am a developer, designer, and coder.
-                            </p>
+                            <div className="flex-flex-row">
+                                <div className="ml-10 text-black dark:text-white text-lg md:text-2xl">
+                                    Frontend <b>&#60;Coder /&#62;</b> & <b>Designer</b>
+                                </div>
+                            </div>
+
                             <p className="text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
                         </TypeIt>
                     </div>
                     <Tilt>
-                        <div className="hidden lg:flex justify-center">
+                        <div className="to-animate scale-up hidden lg:flex justify-center">
                             <img src="/manOnTable.svg" className="w-2/3" />
                         </div>
                     </Tilt>

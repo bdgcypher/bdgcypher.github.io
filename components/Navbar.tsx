@@ -4,6 +4,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { SlMenu } from 'react-icons/sl'
 import { TfiClose } from 'react-icons/tfi'
 import { FiMoon, FiSun } from 'react-icons/fi'
+import TypeIt from 'typeit-react'
 
 export default function Navbar() {
 
@@ -43,16 +44,19 @@ export default function Navbar() {
         <>
             <Popover as="header" className="inset-x-1 z-100">
                 <div id="home" className="bg-tertiary dark:bg-raisin pt-4">
-                    <h1 className="absolute top-6 left-10 text-primary text-3xl md:text-4xl">
-                        BG
-                    </h1>
+                    {/* <TypeIt> */}
+                        <h1 className="absolute top-6 left-10 text-primary text-3xl md:text-4xl">
+                            BG
+                            {/* BenjaminGoddard<span className="text-white">.</span><span className="text-green-500">portfolio</span><span className="text-white">.</span><span className="text-secondary">_</span> */}
+                        </h1>
+                    {/* </TypeIt> */}
                     <nav
                         className="relative ml-10 mx-auto flex items-center justify-around px-6 lg:px-2"
                         aria-label="Global"
                     >
                         <div className="flex flex-row items-center">
                             <div className="flex items-center w-screen md:w-auto">
-                                <div className=" justify-self-end hidden lg:flex flex-row gap-16 px-20 py-3 bg-white dark:bg-black text-black dark:text-white text-lg font-bold rounded-full shadow-xl">
+                                <div className=" justify-self-end hidden lg:flex flex-row gap-16 px-20 py-3 bg-white dark:bg-black text-black dark:text-white text-lg font-bold rounded-full shadow-xl dark:shadow-gray-900">
                                     <a href="#home" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Home</a>
                                     <a href="#about" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">About</a>
                                     <a href="#discover" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Discover</a>

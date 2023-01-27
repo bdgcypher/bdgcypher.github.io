@@ -41,6 +41,80 @@ a {
   }
 }
 
+.to-animate {
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.to-animate.scale-up {
+  opacity: 0;
+  transition: all 1.5s;
+  transform: scale(0);
+}
+
+.to-animate.from-bottom {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateY(100%);
+}
+
+.to-animate.from-left {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+
+.animated {
+  opacity: 1;
+  transition: all 1.5s
+}
+
+.animated.scale-up {
+  opacity: 1;
+  transition: all 1s;
+  transform: scale(1);
+}
+
+.animated.from-bottom {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0);
+}
+
+.animated.from-bottom.second {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0);
+  transition-delay: 200ms;
+}
+
+.animated.from-bottom.third {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
+.animated.from-left {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateX(0);
+}
+
+.animated.from-left.second {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateX(0);
+  transition-delay: 200ms;
+}
+
+.animated.from-left.third {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateX(0);
+  transition-delay: 500ms;
+}
+
 /*  scrollbar width */
 ::-webkit-scrollbar {
   width: 6px;

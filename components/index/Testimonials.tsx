@@ -13,7 +13,7 @@ export default function Testimonials() {
                     </p>
                 </div>
                 <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-                    <div className="flex">
+                    <div className="to-animate from-bottom flex">
                         <div>
                             <div className="mb-2">
                                 <h1 className="inline-block text-4xl font-bold leading-5 text-black dark:text-white">
@@ -41,7 +41,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex">
+                    <div className="to-animate from-bottom second flex">
                         <div>
                             <div className="mb-2">
                                 <h1 className="inline-block text-4xl font-bold leading-5 text-black dark:text-white">
@@ -69,7 +69,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex">
+                    <div className="to-animate from-bottom third flex">
                         <div>
                             <div className="mb-2">
                                 <h1 className="inline-block text-4xl font-bold leading-5 text-black dark:text-white">

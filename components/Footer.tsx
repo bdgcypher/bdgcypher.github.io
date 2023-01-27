@@ -1,5 +1,7 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi"
+import { BsFillArrowUpCircleFill } from 'react-icons/bs'
+import TypeIt from "typeit-react";
 
 const navigation = [
     {
@@ -23,17 +25,27 @@ const navigation = [
             <HiOutlineMail className="text-2xl" />
         ),
     },
+    {
+        name: 'Up',
+        href: '#top',
+        icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
+            <BsFillArrowUpCircleFill className="text-2xl" />
+        ),
+    },
 ]
 
 export default function Footer() {
     return (
         <footer className="bg-white dark:bg-black">
-            <div className="text-center mx-auto w-2/3 md:w-full">
-                <h1 className="text-black dark:text-white text-3xl md:text-4xl lg:text-5xl">Each day is a chance for an <span className="text-primary">Adventure</span>.</h1>
-                <div className="mt-2 text-gray-400 text-md md:text-xl">
-                    <p>&#47;&#47; So make it count.</p>
+            <TypeIt options={{ speed: 10, waitUntilVisible: true }}>
+                <div className="text-center mx-auto w-2/3 md:w-full">
+                    <h1 className="text-black dark:text-white text-3xl md:text-4xl lg:text-5xl">Each day is a chance for an <span className="text-primary">Adventure</span>.</h1>
+                    <div className="mt-2 text-gray-400 text-md md:text-xl">
+                        <p>&#47;&#47; So make it count.</p>
+                    </div>
                 </div>
-            </div>
+            </TypeIt>
+
             <div className="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
                 <div className="flex justify-center space-x-6 md:order-2">
                     {navigation.map((item) => (

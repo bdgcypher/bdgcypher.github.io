@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Hero from '../components/index/Hero'
 import Navbar from '../components/Navbar'
@@ -22,7 +22,8 @@ export default function Home() {
         if (entry.isIntersecting) {
           entry.target.classList.add('animated');
         } else {
-          entry.target.classList.remove('animated')
+          // entry.target.classList.remove('animated')
+          null
         }
       })
     })
@@ -32,8 +33,12 @@ export default function Home() {
     elementsToAnimate.forEach((element) => observer.observe(element))
   }
 
+  useEffect(() => {
+    observePage();
+  }, []);
+
   return (
-    <div onLoad={() => {observePage()}}>
+    <div onLoadStart={() => { observePage() }}>
       <Head>
         <title>Benjamin Goddard</title>
         <meta name="description" content="Frontend developer, Designer, and Tech enthusiast." />
@@ -41,7 +46,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div onMouseMove={() => { animateSvg(mousePosition)}}>
+      <div onMouseMove={() => { animateSvg(mousePosition) }}>
         <Navbar />
         <Hero />
         <About />

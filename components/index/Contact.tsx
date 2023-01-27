@@ -8,7 +8,7 @@ export default function Contact() {
             <div className="px-4 md:px-20">
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
-                        <div className="flex flex-row lg:hidden mb-16 justify-center">
+                        <div className="to-animate scale-up flex flex-row lg:hidden mb-16 justify-center">
                             <img src="/svg-9.svg" className="w-2/3" />
                         </div>
                     </Tilt>
@@ -23,13 +23,13 @@ export default function Contact() {
                         </p>
                         <p className="text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
                         <p className="mt-2 text-gray-400 text-md md:text-xl">&#60;/btn&#62;</p>
-                        <a href="/contact" className="w-40 ml-10 px-8 py-1 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 text-white text-xl rounded-full shadow-xl">
+                        <a href="/contact" className="w-40 ml-10 px-8 py-1 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 text-white text-xl rounded-full shadow-xl dark:shadow-gray-900">
                             Contact me
                         </a>
                         <p className="text-gray-400 text-md md:text-xl">&#60;/btn&#62;</p>
                     </div>
                     <Tilt>
-                        <div className="hidden lg:flex justify-center">
+                        <div className="to-animate scale-up hidden lg:flex justify-center">
                             <img src="/svg-9.svg" className="w-2/3" />
                         </div>
                     </Tilt>

@@ -24,8 +24,8 @@ export default function Discover() {
                     <p className="text-gray-400 text-md md:text-xl line-through">&#47;&#47; few recent projects here &#8595;&#8595;&#8595;</p>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-6">
-                    <a  target="_blank" href="https://withbranch.com/" aria-label="View Item" className="h-auto">
-                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl">
+                    <a  target="_blank" href="https://withbranch.com/" aria-label="View Item" className="to-animate from-bottom h-auto">
+                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/branch.png"
@@ -39,8 +39,8 @@ export default function Discover() {
                             </div>
                         </div>
                     </a>
-                    <a  target="_blank" href="https://tip-web.herokuapp.com/" aria-label="View Item" className="h-auto">
-                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl">
+                    <a  target="_blank" href="https://tip-web.herokuapp.com/" aria-label="View Item" className="to-animate from-bottom second h-auto">
+                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/tip.jpg"
@@ -54,8 +54,8 @@ export default function Discover() {
                             </div>
                         </div>
                     </a>
-                    <a  target="_blank" href="https://benjamingoddard.netlify.app/xplore" aria-label="View Item" className="h-auto">
-                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl">
+                    <a  target="_blank" href="https://benjamingoddard.netlify.app/xplore" aria-label="View Item" className="to-animate from-bottom third h-auto">
+                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/xplore.jpg"

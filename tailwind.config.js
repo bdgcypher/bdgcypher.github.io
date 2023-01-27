@@ -12,7 +12,7 @@ module.exports = {
         raisin: '#1F292E',
         primary: '#E22866',
         secondary: '#28a4e2',
-        tertiary: '#ECE6EE',
+        tertiary: '#F6F3F7',
       },
     },
   },
