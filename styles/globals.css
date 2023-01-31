@@ -58,10 +58,28 @@ a {
   transform: translateY(100%);
 }
 
+.discover.from-bottom {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateY(100%);
+}
+
+.testimonial.from-bottom {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateY(100%);
+}
+
 .to-animate.from-left {
   opacity: 0;
   transition: all 1s;
   transform: translateX(-100%);
+}
+
+.to-animate.from-right {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateX(100%);
 }
 
 .animated {
@@ -81,18 +99,25 @@ a {
   transform: translateY(0);
 }
 
-.animated.from-bottom.second {
+.animated.from-bottom.first {
   opacity: 1;
   transition: all 1s;
   transform: translateY(0);
   transition-delay: 200ms;
 }
 
-.animated.from-bottom.third {
+.animated.from-bottom.second {
   opacity: 1;
   transition: all 1s;
   transform: translateY(0);
   transition-delay: 500ms;
+}
+
+.animated.from-bottom.third {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0);
+  transition-delay: 700ms;
 }
 
 .animated.from-left {
@@ -113,6 +138,57 @@ a {
   transition: all 1s;
   transform: translateX(0);
   transition-delay: 500ms;
+}
+
+.animated.from-right {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateX(0);
+}
+
+/* Strikethrough */
+
+.strikethrough {
+	display: inline-block;
+	position: relative;
+	transition: all 0.5s cubic-bezier(.55, 0, .1, 1);
+}
+
+.strikethrough:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	transform-origin: center left;
+	animation: strikethrough 1s 2s cubic-bezier(.55, 0, .1, 1) 1;
+  animation-delay: 2000ms;
+  animation-fill-mode: forwards;
+	transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);
+}
+
+/* strikethrough hover effect */
+
+.strikethrough:hover:after {
+	transform: scaleX(0);
+	transform-origin: center left;
+}
+
+/* Keyframes for strikethrough animation */
+
+@keyframes strikethrough {
+	from {
+		transform: scaleX(0);
+    box-shadow: 0 1px transparent;
+    margin-top: -0.7em;
+    background: transparent;
+	}
+	to {
+		transform: scaleX(1);
+    box-shadow: 0 1px rgba(255,255,255,0.6);
+    margin-top: -0.7em;
+    background: rgb(144, 137, 137);
+	}
 }
 
 /*  scrollbar width */

@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <div onLoadStart={() => { observePage() }}>
       <Head>
-        <title>Benjamin Goddard</title>
+        <title>Benjamin Goddard | Frontend Designer and Developer</title>
         <meta name="description" content="Frontend developer, Designer, and Tech enthusiast." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

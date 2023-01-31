@@ -19,12 +19,12 @@ export default function Hero() {
                     <div className="flex flex-col h-60 w-full max-w-xl">
                         <TypeIt options={{ speed: 10, waitUntilVisible: true }}>
                             <p className="text-gray-400 text-md md:text-xl">&#60;h1&#62;</p>
-                            <h1 className="ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Hello, World! I'm Ben</h1>
+                            <h1 className="ml-10 text-black dark:text-white font-semibold text-4xl md:text-5xl lg:text-6xl">Hello, World! I'm Ben</h1>
                             <p className="text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>
                             <p className="mt-2 text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
                             <div className="flex-flex-row">
                                 <div className="ml-10 text-black dark:text-white text-lg md:text-2xl">
-                                    Frontend <b>&#60;Coder /&#62;</b> & <b>Designer</b>
+                                    Frontend <span className="text-3xl"><b>&#60;Coder /&#62;</b></span> & <span className="text-3xl text-indigo-500">&#10024;<b>Designer</b>&#10024;</span>
                                 </div>
                             </div>
 

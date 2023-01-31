@@ -21,8 +21,7 @@ export default function GetInTouch() {
 
     return (
         <>
-
-            <div className="bg-white dark:bg-black pb-24">
+            <div id="contact" className="bg-white dark:bg-black pb-24">
                 <div className="relative py-16">
                     <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
                         <div className="to-animate from-left relative -mt-40 rounded-2xl px-6 pt-10 lg:pt-20 pb-10 bg-snow dark:bg-onyx overflow-hidden shadow-xl  sm:px-12">

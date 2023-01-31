@@ -7,9 +7,9 @@ module.exports = {
       colors: {
         black: '#1E1F1F',
         white: '#FCFCFC',
-        snow: '#FDF8FA',
+        snow: '#E8ECEE',
         onyx: '#3C3E3E',
-        raisin: '#1F292E',
+        raisin: '#242E33',
         primary: '#E22866',
         secondary: '#28a4e2',
         tertiary: '#F6F3F7',

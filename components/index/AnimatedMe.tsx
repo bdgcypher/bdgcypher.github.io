@@ -1,4 +1,5 @@
 import React from "react";
+import TypeIt from "typeit-react";
 
 export default function AnimatedMe() {
 
@@ -40,7 +41,12 @@ export default function AnimatedMe() {
                 </g>
             </svg>
             <div className="text-gray-400 text-md md:text-xl -mt-10">
-                <p>&#47;&#47; Hmmm... is this too creepy to put on my website?</p>
+                <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true }}
+                    getBeforeInit={(instance) => {
+                        instance.type("&#47;&#47; Hmmm... is this too creepy to put on my website?").pause(2000).delete().pause(500).type("&#47;&#47; Try moving the mouse over the 'let's do this' button ;)");
+                        return instance;
+                    }}
+                ></TypeIt>
             </div>
         </div>
     );
