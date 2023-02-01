@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaPaintBrush } from 'react-icons/fa'
 import Tilt from 'react-parallax-tilt';
 import TypeIt from "typeit-react";
 

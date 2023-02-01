@@ -103,21 +103,21 @@ a {
   opacity: 1;
   transition: all 1s;
   transform: translateY(0);
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 
 .animated.from-bottom.second {
   opacity: 1;
   transition: all 1s;
   transform: translateY(0);
-  transition-delay: 500ms;
+  transition-delay: 600ms;
 }
 
 .animated.from-bottom.third {
   opacity: 1;
   transition: all 1s;
   transform: translateY(0);
-  transition-delay: 700ms;
+  transition-delay: 800ms;
 }
 
 .animated.from-left {
