@@ -56,7 +56,7 @@ export default function SectionNavbar() {
                     >
                         <div className="flex flex-row items-center">
                             <div className="flex items-center w-screen lg:w-auto">
-                                <div className=" justify-self-end hidden lg:flex flex-row gap-16 px-20 py-3 bg-white/40 dark:bg-black/40 backdrop-filter backdrop-blur-xl backdrop-brightness-125 text-black dark:text-white text-lg font-bold rounded-full shadow-xl dark:shadow-gray-900">
+                                <div className=" justify-self-end hidden lg:flex flex-row gap-16 px-20 py-3 bg-white/40 dark:bg-black/80 backdrop-filter backdrop-blur-xl backdrop-brightness-125 text-black dark:text-white text-lg font-bold rounded-full shadow-xl dark:shadow-gray-900">
                                     <a href="#home" id="homeSectionNav" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Home</a>
                                     <a href="#about" id="aboutSectionNav" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">About</a>
                                     <a href="#discover" id="discoverSectionNav" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300">Discover</a>
