@@ -38,7 +38,7 @@ export default function Footer() {
     return (
         <footer className="bg-white dark:bg-black">
             <TypeIt options={{ speed: 10, waitUntilVisible: true }}>
-                <div className="text-center mx-auto w-2/3 md:w-full">
+                <div className="h-20 text-center mx-auto w-3/4 md:w-full">
                     <h1 className="text-black dark:text-white text-3xl md:text-4xl lg:text-5xl">Each day is a chance for an <span className="text-primary">Adventure</span>.</h1>
                     <div className="mt-2 text-gray-400 text-md md:text-xl">
                         <p>&#47;&#47; So make it count.</p>
@@ -47,7 +47,7 @@ export default function Footer() {
             </TypeIt>
 
             <div className="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
-                <div className="flex justify-center space-x-6 md:order-2">
+                <div className="mt-10 flex justify-center space-x-6 md:order-2">
                     {navigation.map((item) => (
                         <a key={item.name} href={item.href} target={item.target} className="text-gray-400 hover:text-gray-500">
                             <span className="sr-only">{item.name}</span>
@@ -56,8 +56,11 @@ export default function Footer() {
                     ))}
                 </div>
                 <div className="mt-8 md:order-1 md:mt-0">
-                    <p className="text-center text-lg leading-5 text-gray-500">
+                    <p className="hidden md:block text-center text-lg leading-5 text-gray-500">
                         Benajamin Goddard &copy; 2020. All rights reserved.
+                    </p>
+                    <p className="block md:hidden text-center text-lg leading-5 text-gray-500">
+                        Benajamin Goddard &copy; 2020. <br/>All rights reserved.
                     </p>
                 </div>
             </div>

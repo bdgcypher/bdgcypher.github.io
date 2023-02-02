@@ -41,6 +41,11 @@ a {
   }
 }
 
+.active {
+  color: #e22866;
+  transform: translateY(-4px)
+}
+
 .to-animate {
   opacity: 0;
   transition: all 1.5s;
@@ -103,21 +108,21 @@ a {
   opacity: 1;
   transition: all 1s;
   transform: translateY(0);
-  transition-delay: 300ms;
+  transition-delay: 500ms;
 }
 
 .animated.from-bottom.second {
   opacity: 1;
   transition: all 1s;
   transform: translateY(0);
-  transition-delay: 600ms;
+  transition-delay: 800ms;
 }
 
 .animated.from-bottom.third {
   opacity: 1;
   transition: all 1s;
   transform: translateY(0);
-  transition-delay: 800ms;
+  transition-delay: 1000ms;
 }
 
 .animated.from-left {

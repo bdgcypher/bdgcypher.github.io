@@ -16,11 +16,11 @@ export default function Contact() {
 
 
                     <div className="to-animate from-left flex flex-col w-full max-w-xl">
-                        <h1 className="mb-10 ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Let's work together</h1>
-                        <p className="mb-8 ml-10 text-black dark:text-white text-lg md:text-2xl">
-                            I am excited to learn about your next project! <br/>Reach out and we can build it together.
+                        <h1 className="mb-10 ml-0 md:ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Let's work together</h1>
+                        <p className="mb-8 ml-0 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
+                            I am excited to learn about your next project! Reach out and we can build it together.
                         </p>
-                        <a href="/contact" className="w-40 ml-10 px-8 py-1 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 text-white text-xl rounded-full shadow-xl dark:shadow-gray-900">
+                        <a href="/contact" className="w-40 ml-0 md:ml-10 px-8 py-1 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 text-white text-xl rounded-full shadow-xl dark:shadow-gray-900">
                             Contact me
                         </a>
                     </div>

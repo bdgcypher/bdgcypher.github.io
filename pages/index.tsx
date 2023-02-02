@@ -17,7 +17,7 @@ export default function Home() {
   const mousePosition = useMousePosition()
 
   const observePage = () => {
-    const observer = new IntersectionObserver((entries) => {
+    const animationObserver = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animated');
@@ -28,9 +28,30 @@ export default function Home() {
       })
     })
 
+    const pageSectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        // Home active
+        if (entry.isIntersecting) {
+          const link = document.getElementById(`${entry.target.id}Nav`)
+          link != null ? (link.classList.add('active')) : null
+          const mobileLink = document.getElementById(`${entry.target.id}MobileNav`)
+          mobileLink != null ? (mobileLink.classList.add('active')) : null
+        } else {
+          const link = document.getElementById(`${entry.target.id}Nav`)
+          link != null ? (link.classList.remove('active')) : null
+          const mobileLink = document.getElementById(`${entry.target.id}MobileNav`)
+          mobileLink != null ? (mobileLink.classList.remove('active')) : null
+        }
+      })
+    })
+
     const elementsToAnimate = document.querySelectorAll('.to-animate')
     console.log(elementsToAnimate)
-    elementsToAnimate.forEach((element) => observer.observe(element))
+    elementsToAnimate.forEach((element) => animationObserver.observe(element))
+
+    const activePageSections = document.querySelectorAll('.page-section')
+    console.log(activePageSections)
+    activePageSections.forEach((element) => pageSectionObserver.observe(element))
   }
 
   useEffect(() => {
