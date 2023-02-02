@@ -16,7 +16,7 @@ export default function Discover() {
             <div id="discoverSection" className="page-section px-4 pb-16 mx-auto -mt-0 lg:-mt-32 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:pb-20">
                 <div className="flex flex-col mb-0 justify-left lg:justify-center lg:flex-row md:mb-8">
                     <h2 className="to-animate from-bottom mb-5 font-semibold text-3xl md:text-4xl lg:text-5xl text-black dark:text-white sm:leading-none md:mb-6 group">
-                        <span className="inline-block mx-10 md:mx-10">
+                        <span className="inline-block text-center mx-20 md:mx-10">
                             Talk is cheap, let's see some results
                         </span>
                     </h2>
