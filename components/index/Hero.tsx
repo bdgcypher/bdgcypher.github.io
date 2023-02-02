@@ -23,7 +23,7 @@ export default function Hero() {
                             <p className="mt-2 text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
                             <div className="flex flex-row">
                                 <div className="ml-6 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
-                                    Frontend <span className="text-xl md:text-3xl"><b>&#60;Coder /&#62;</b></span> and <span className="text-xl md:text-3xl text-indigo-500">&#10024;<b>Designer</b>&#10024;</span>
+                                    Frontend <span className="text-xl text-green-500 md:text-3xl"><b>&#60;Coder /&#62;</b></span> and <span className="text-xl md:text-3xl text-indigo-500">&#10024;<b>Designer</b>&#10024;</span>
                                 </div>
                             </div>
 

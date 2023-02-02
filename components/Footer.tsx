@@ -3,6 +3,12 @@ import { HiOutlineMail } from "react-icons/hi"
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import TypeIt from "typeit-react";
 
+
+const scrollPageTo = (id: string) => {
+    const element: any = document.getElementById(id)
+    element.scrollIntoView()
+}
+
 const navigation = [
     {
         name: 'GitHub',
@@ -27,14 +33,16 @@ const navigation = [
     },
     {
         name: 'Up',
-        href: '#top',
         icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
             <BsFillArrowUpCircleFill className="text-2xl" />
         ),
+        onClick: () => { scrollPageTo("home") },
     },
 ]
 
 export default function Footer() {
+
+
     return (
         <footer className="bg-white dark:bg-black">
             <TypeIt options={{ speed: 10, waitUntilVisible: true }}>
@@ -49,7 +57,7 @@ export default function Footer() {
             <div className="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
                 <div className="mt-10 flex justify-center space-x-6 md:order-2">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} target={item.target} className="text-gray-400 hover:text-gray-500">
+                        <a key={item.name} href={item.href} target={item.target} onClick={item.onClick} className="text-gray-400 hover:text-gray-500">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-6 w-6" aria-hidden="true" />
                         </a>
@@ -60,7 +68,7 @@ export default function Footer() {
                         Benajamin Goddard &copy; 2020. All rights reserved.
                     </p>
                     <p className="block md:hidden text-center text-lg leading-5 text-gray-500">
-                        Benajamin Goddard &copy; 2020. <br/>All rights reserved.
+                        Benajamin Goddard &copy; 2020. <br />All rights reserved.
                     </p>
                 </div>
             </div>
