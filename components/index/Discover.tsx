@@ -41,7 +41,7 @@ export default function Discover() {
 
                 <div className="flex flex-col lg:flex-row gap-6">
                     <a target="_blank" href="https://withbranch.com/" aria-label="View Item" className="discover from-bottom first h-auto">
-                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl dark:shadow-gray-900">
+                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/branch.png"
@@ -56,7 +56,7 @@ export default function Discover() {
                         </div>
                     </a>
                     <a target="_blank" href="https://tip-web.herokuapp.com/" aria-label="View Item" className="discover from-bottom second h-auto">
-                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl dark:shadow-gray-900">
+                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/tip.jpg"
@@ -71,7 +71,7 @@ export default function Discover() {
                         </div>
                     </a>
                     <a target="_blank" href="https://benjamingoddard.netlify.app/xplore" aria-label="View Item" className="discover from-bottom third h-auto">
-                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-2xl dark:shadow-gray-900">
+                        <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/xplore.jpg"
@@ -88,7 +88,7 @@ export default function Discover() {
                 </div>
                 <div className="text-center mt-8">
                     <a
-                        href="/projects"
+                        href="/discover"
                         aria-label=""
                         className="discover from-bottom third inline-flex items-center font-semibold transition-colors duration-200 text-xl text-primary hover:text-secondary"
                     >
