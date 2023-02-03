@@ -46,7 +46,7 @@ export default function Discover() {
     }, []);
 
     return (
-        <div onLoadStart={() => { observePage() }}>
+        <div onLoad={() => { observePage() }}>
             <Head>
                 <title>Benjamin Goddard | Frontend Designer and Developer</title>
                 <meta name="description" content="Frontend developer, Designer, and Tech enthusiast." />

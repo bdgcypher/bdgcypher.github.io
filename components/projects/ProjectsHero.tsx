@@ -1,7 +1,8 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { BiArrowBack } from "react-icons/bi";
-import { SiJavascript, SiTypescript } from 'react-icons/si'
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss } from 'react-icons/si'
 
 export default function ProjectsHero() {
   return (
@@ -18,7 +19,7 @@ export default function ProjectsHero() {
                 Projects
               </h2>
               <p className="text-lg text-gray-800 dark:text-gray-300 md:text-xl">
-                Check out my recent work experience and design case studies.
+              I've worked with start-ups and tech companies on a range of different projects, collaborating and contributing on brainstorming, website design and component creation .
               </p>
             </div>
             <div className="to-animate from-bottom mb-8">
@@ -35,19 +36,19 @@ export default function ProjectsHero() {
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiJavascript className="text-yellow-400" />
+                      <SiHtml5 className="text-orange-400" />
                     </span>
                     HTML
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiJavascript className="text-yellow-400" />
+                      <SiCss3 className="text-blue-500" />
                     </span>
                     CSS
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiJavascript className="text-yellow-400" />
+                      <SiFigma className="text-black dark:text-white" />
                     </span>
                     Figma
                   </li>
@@ -55,19 +56,19 @@ export default function ProjectsHero() {
                 <ul className="space-y-3">
                   <li className="flex -mt-3 md:-mt-0">
                     <span className="mr-2">
-                      <SiJavascript className="text-yellow-400" />
+                      <SiReact className="text-blue-300" />
                     </span>
                     React
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiJavascript className="text-yellow-400" />
+                      <SiTailwindcss className="text-cyan-400" />
                     </span>
                     Tailwind
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiJavascript className="text-yellow-400" />
+                      <TbBrandNextjs className="text-black dark:text-white" />
                     </span>
                     Nextjs
                   </li>
@@ -84,7 +85,7 @@ export default function ProjectsHero() {
           </div>
           <div>
             <Tilt>
-              <div className="to-animate scale-up hidden lg:flex justify-center">
+              <div className="to-animate scale-up flex justify-center">
                 <img src="/svg-7.svg" className="w-2/3" />
               </div>
             </Tilt>
