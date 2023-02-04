@@ -1,4 +1,5 @@
 import Skills from "./Skills";
+import { BiLinkExternal } from "react-icons/bi"
 
 export default function ProjectRight(
     { title, shortDescription, href, img1, img2, img3, header, longDescription, skillsArray }:
@@ -10,9 +11,12 @@ export default function ProjectRight(
         <div className="px-4 mx-auto mb-16 lg:mb-20 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
             <div className="max-w-2xl mb-10 ml-0 lg:ml-16 text-left lg:max-w-2xl md:mb-12">
                 <a target="_blank" href={href} >
-                    <h1 className="to-animate from-left max-w-lg mb-6 font-sans transition ease-in-out duration-300 hover:-translate-y-2 text-3xl font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary sm:text-4xl cursor-pointer">
-                        {title}
-                    </h1>
+                    <div className="to-animate from-left flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
+                        <h1>
+                            {title}
+                        </h1>
+                        <BiLinkExternal className="ml-4" />
+                    </div>
                 </a>
                 <p className="to-animate from-left text-lg text-gray-700 dark:text-gray-400 md:text-xl">
                     {shortDescription}
