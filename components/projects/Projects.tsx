@@ -112,7 +112,7 @@ export default function Projects() {
                     <ProjectLeft
                         title="Portfolio v1"
                         shortDescription="My first iteration at a personal website before the current redesign."
-                        href="#"
+                        href="https://ben-portfolio-v1.netlify.app/"
                         img1="bg.jpg"
                         img2="bg3.png"
                         img3="bg2.png"
