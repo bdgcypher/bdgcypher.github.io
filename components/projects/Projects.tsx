@@ -128,7 +128,7 @@ export default function Projects() {
                     <ProjectRight
                         title="TRAVRSE"
                         shortDescription="My first website design!"
-                        href="https://bdgcypher.github.io/traverse-web/"
+                        href="https://traverse-web.netlify.app/"
                         img1="traverse.jpg"
                         img2="traverse2.png"
                         img3=""
