@@ -96,7 +96,7 @@ export default function Projects() {
                     <ProjectRight
                         title="indigo"
                         shortDescription="An ecommerce style website to practice Tailwindcss and page layout design."
-                        href="https://benjamingoddard.me/indigo/"
+                        href="https://shop-indigo.netlify.app/"
                         img1="indigo.jpg"
                         img2="indigo2.png"
                         img3=""
