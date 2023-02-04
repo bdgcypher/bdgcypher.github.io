@@ -2,11 +2,11 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { BiArrowBack } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss } from 'react-icons/si'
+import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss, SiPython, SiDjango } from 'react-icons/si'
 
 export default function ProjectsHero() {
   return (
-    <div className="pt-4 pl-4 bg-white dark:bg-black">
+    <div id="home" className="pt-4 pl-4 bg-white dark:bg-black">
       <a href="/" className="text-primary hover:text-secondary text-4xl transition ease-in-out duration-300">
         <BiArrowBack />
       </a>
@@ -77,6 +77,20 @@ export default function ProjectsHero() {
                       <SiTypescript className="text-blue-400" />
                     </span>
                     TypeScript
+                  </li>
+                </ul>
+                <ul className="space-y-3">
+                  <li className="flex">
+                    <span className="mr-2">
+                      <SiPython className="text-black dark:text-white" />
+                    </span>
+                    Python
+                  </li>
+                  <li className="flex">
+                    <span className="mr-2">
+                      <SiDjango className="text-green-400" />
+                    </span>
+                    Django
                   </li>
                 </ul>
               </div>

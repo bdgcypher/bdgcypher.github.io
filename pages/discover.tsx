@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Projects from '../components/projects/Projects';
 import Footer from '../components/Footer';
 import ProjectsHero from '../components/projects/ProjectsHero';
+import Contact from '../components/index/Contact';
 
 
 export default function Discover() {
@@ -57,6 +58,7 @@ export default function Discover() {
             <div>
                 <ProjectsHero />
                 <Projects />
+                <Contact />
                 <Footer />
             </div>
         </div>
