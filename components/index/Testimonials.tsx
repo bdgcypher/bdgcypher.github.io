@@ -24,7 +24,7 @@ export default function Testimonials() {
                     <div className="hidden lg:flex flex-col mb-10 text-gray-400 text-md md:text-xl">
                         <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true }}
                             getAfterInit={(instance) => {
-                                instance.type("&#47;&#47; Maybe some people I've worked with have some nice things to say...").pause(2000).delete().pause(500).type("&#47;&#47; People I've worked with have some nice things to say!").exec(() => startAnimation());
+                                instance.type("&#47;&#47; Maybe some people I've worked with have some nice things to say...").exec(() => startAnimation()).pause(2000).delete().pause(500).type("&#47;&#47; People I've worked with have some nice things to say!");
                                 return instance;
                             }}
                         />
@@ -32,7 +32,7 @@ export default function Testimonials() {
                     <div className="flex flex-col lg:hidden mb-10 text-gray-400 text-md md:text-xl">
                         <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true }}
                             getAfterInit={(instance) => {
-                                instance.type("&#47;&#47; Maybe some people I've worked with <br/>&#47;&#47; have some nice things to say...").pause(2000).delete().delete(1).pause(500).type("&#47;&#47; People I've worked with <br/>&#47;&#47; have some nice things to say!").exec(() => startAnimation());
+                                instance.type("&#47;&#47; Maybe some people I've worked with <br/>&#47;&#47; have some nice things to say...").exec(() => startAnimation().pause(2000)).delete().delete(1).pause(500).type("&#47;&#47; People I've worked with <br/>&#47;&#47; have some nice things to say!");
                                 return instance;
                             }}
                         />
