@@ -4,7 +4,6 @@ import TypeIt from "typeit-react";
 
 export default function Hero() {
 
-
     return (
         <div id="home" className="h-full pt-10 md:pt-40 bg-tertiary dark:bg-raisin text-black dark:text-white">
             <div id="homeSection" className="page-section px-2 md:px-20">
@@ -23,10 +22,12 @@ export default function Hero() {
                             <p className="mt-2 text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
                             <div className="flex flex-row">
                                 <div className="ml-6 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
-                                    Frontend <span className="text-xl text-green-500 md:text-3xl"><b>&#60;Coder /&#62;</b></span> and <span className="text-xl md:text-3xl text-indigo-500">&#10024;<b>Designer</b>&#10024;</span>
+                                    Frontend 
+                                    <a href="https://github.com/bdgcypher" target="_blank" className="text-xl mx-2 text-green-500 hover:text-green-300 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Coder /&#62;</b></a> 
+                                    and 
+                                    <a href="https://www.figma.com/file/q1aDGIHSrdusRIj4vRAhLg/Portfolio-website-v2?node-id=0%3A1&t=wwHAduM5Or1F60Wy-1" target="_blank"  className="text-xl md:text-3xl text-indigo-500 hover:text-indigo-300 transition duration-300 ease-in-out">&#10024;<b>Designer</b>&#10024;</a>
                                 </div>
                             </div>
-
                             <p className="text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
                         </TypeIt>
                     </div>

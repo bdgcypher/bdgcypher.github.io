@@ -1,6 +1,6 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi"
-import { BsFillArrowUpCircleFill } from 'react-icons/bs'
+import { BsFillArrowUpCircleFill, BsInstagram, BsLinkedin } from 'react-icons/bs'
 import TypeIt from "typeit-react";
 
 
@@ -22,6 +22,22 @@ const navigation = [
                     clipRule="evenodd"
                 />
             </svg>
+        ),
+    },
+    {
+        name: 'LinkedIn',
+        href: 'https://www.linkedin.com/in/benjamin-goddard-31a11873/',
+        target: '_blank',
+        icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
+            <BsLinkedin className="text-2xl" />
+        ),
+    },
+    {
+        name: 'Instagram',
+        href: 'https://www.instagram.com/ben_jammin.pk/?hl=en',
+        target: '_blank',
+        icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
+            <BsInstagram className="text-2xl" />
         ),
     },
     {
