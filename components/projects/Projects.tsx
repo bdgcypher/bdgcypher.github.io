@@ -54,7 +54,7 @@ export default function Projects() {
                         img2=""
                         img3=""
                         header="Breaking into the tech world"
-                        longDescription="I spent the last 9 months as a paid intern at TiP (Transparency in Politics) building their web app with Python, Django, HTML5, and CSS.
+                        longDescription="I spent the majority of 2021 as a paid intern at TiP (Transparency in Politics) building their web app with Python, Django, HTML5, and CSS.
                             This was my first professional position in the developer world and helped jumpstart my love of all things tech!
                             My work included all frontend design and integration, animations, and transition effects. Although I don't claim to be a full-stack engineer, 
                             I was also fairly involved in the backend. From processing data and writing user-handling logic to database integration with SQLite. 
