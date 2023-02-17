@@ -107,7 +107,7 @@ export default function Projects() {
                         img3=""
                         header="Would you buy this design on Amazon?"
                         longDescription="Indigo is an ecommerce based frontend web application created to familiarize myself with and 
-                        demonstrate use of TailwindUI template elements and is built on top on the React.js framework. 
+                        demonstrate use of TailwindUI template elements and is built on the React.js framework. 
                         I was introduced to tailwind by a friend and wanted to check it out. 
                         I spent a few hours making this site and I loved it! For anyone who doesn't use tailwind in their projects, you should!"
                         skillsArray={["JavaScript", "HTML", "CSS", "Figma", "React", "Tailwind"]}
