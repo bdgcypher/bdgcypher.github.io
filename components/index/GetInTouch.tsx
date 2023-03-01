@@ -20,14 +20,14 @@ export default function GetInTouch() {
                         <p className="mb-8 ml-0 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
                             Schedule a time to meet. I can't wait to hear your idea!
                         </p>
-                        <a href="/contact" className="w-48 ml-0 md:ml-10 px-8 py-1 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 text-center text-white text-xl rounded-full shadow-xl dark:shadow-gray-900">
+                        <a href="/contact" className="h-11 w-48 ml-0 md:ml-10 px-8 py-2 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 font-semibold text-center text-white text-xl rounded-full shadow-xl dark:shadow-gray-900">
                             Let's do this!
                         </a>
                     </div>
 
                     <Tilt>
                         <div className="to-animate scale-up hidden lg:flex justify-center">
-                            <img src="/svg-9.svg" className="w-2/3" />
+                            <img src="/svg-9.svg" alt="People working together at a desk" className="w-2/3" />
                         </div>
                     </Tilt>
 

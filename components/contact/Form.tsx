@@ -30,15 +30,18 @@ export default function Form() {
                         <div className="grid max-w-xl grid-cols-2 gap-4 m-auto">
                             <div className="col-span-2 lg:col-span-1">
                                 <div className=" relative ">
-                                    <input name="name" type="text" id="contact-form-name" className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white dark:bg-onyx text-black dark:text-white placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600" placeholder="name" />
+                                    <label htmlFor="name" className="ml-2 text-black dark:text-white">Name</label>
+                                    <input name="name" type="text" id="contact-form-name" className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white dark:bg-onyx text-black dark:text-white placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600" placeholder="john doe" />
                                 </div>
                             </div>
                             <div className="col-span-2 lg:col-span-1">
                                 <div className=" relative ">
-                                    <input name="email" type="email" id="contact-form-email" className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white dark:bg-onyx text-black dark:text-white placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600" placeholder="email" />
+                                    <label htmlFor="email" className="ml-2 text-black dark:text-white">Email</label>
+                                    <input name="email" type="email" id="contact-form-email" className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white dark:bg-onyx text-black dark:text-white placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600" placeholder="you@example.com" />
                                 </div>
                             </div>
                             <div className="col-span-2">
+                                <label htmlFor="message" className="ml-2 text-black dark:text-white">Message</label>
                                 <textarea name="message" id="comment" placeholder="enter a message" rows={10} cols={40} className="flex-1 w-full px-4 py-2 text-base text-black dark:text-white placeholder-gray-400 bg-white dark:bg-onyx border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600">
                                 </textarea>
                             </div>
@@ -47,7 +50,7 @@ export default function Form() {
                                 <button onClick={() => {
                                     document.getElementById("messageSent")?.classList.add("block");
                                     document.getElementById("messageSent")?.classList.remove("hidden")
-                                }} type="submit" className="py-2 px-4  bg-primary hover:bg-secondary focus:ring-none text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none rounded-full ">
+                                }} type="submit" className="py-2 px-4  bg-primary hover:bg-secondary focus:ring-white text-white w-full transition ease-in duration-200 text-center text-xl font-semibold shadow-md rounded-full ">
                                     Send
                                 </button>
                             </div>

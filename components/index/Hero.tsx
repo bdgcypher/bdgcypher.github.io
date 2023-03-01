@@ -10,7 +10,7 @@ export default function Hero() {
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
                         <div className="to-animate scale-up flex flex-row lg:hidden mt-14 mb-16 justify-center">
-                            <img src="/manOnTable.svg" className="w-2/3" />
+                            <img src="/manOnTable.svg" alt="Man on phone leaning on desk" className="w-2/3" />
                         </div>
                     </Tilt>
 
@@ -33,7 +33,7 @@ export default function Hero() {
                     </div>
                     <Tilt>
                         <div className="to-animate scale-up hidden lg:flex justify-center">
-                            <img src="/manOnTable.svg" className="w-2/3" />
+                            <img src="/manOnTable.svg" alt="Man on phone leaning against desk" className="w-2/3" />
                         </div>
                     </Tilt>
 

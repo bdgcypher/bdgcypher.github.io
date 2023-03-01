@@ -28,21 +28,21 @@ export default function ProjectRight(
                         <img
                             className="object-cover w-full col-span-2 rounded shadow-lg"
                             src={img1}
-                            alt=""
+                            alt="Project image"
                         />
                     ) : (null)}
                     {img2 !== "" ? (
                         <img
                             className="object-cover w-full rounded shadow-lg"
                             src={img2}
-                            alt=""
+                            alt="Project image"
                         />
                     ) : (null)}
                     {img3 !== "" ? (
                         <img
                             className="object-cover w-full rounded shadow-lg"
                             src={img3}
-                            alt=""
+                            alt="Project image"
                         />
                     ) : (null)}
                 </div>

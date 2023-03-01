@@ -45,7 +45,7 @@ export default function Discover() {
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/branch.png"
-                                alt=""
+                                alt="Machine Learning website homepage"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
                                 <p className="mb-4 text-3xl font-bold text-gray-100">Branch</p>
@@ -60,7 +60,7 @@ export default function Discover() {
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/tip.jpg"
-                                alt=""
+                                alt="Political website homepage"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
                                 <p className="mb-4 text-3xl font-bold text-gray-100">TiP</p>
@@ -75,7 +75,7 @@ export default function Discover() {
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/xplore.jpg"
-                                alt=""
+                                alt="Travel website homepage"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
                                 <p className="mb-4 text-3xl font-bold text-gray-100">Xplore</p>
