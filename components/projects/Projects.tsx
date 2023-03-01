@@ -54,7 +54,7 @@ export default function Projects() {
                     <ProjectLeft
                         title="TiP"
                         shortDescription="Providing Citizens and Elected Officials with a way to communicate on local policies and governance."
-                        href="#"
+                        href="/tip"
                         img1="tip.jpg"
                         img2=""
                         img3=""
