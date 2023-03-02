@@ -15,7 +15,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <SiJavascript className="text-yellow-400" />
+                                        <SiJavascript title="JavaScript logo" className="text-yellow-400" />
                                     </span>
                                     JavaScript
                                 </li>
@@ -27,7 +27,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <SiHtml5 className="text-orange-400" />
+                                        <SiHtml5 title="HTML logo" className="text-orange-400" />
                                     </span>
                                     HTML
                                 </li>
@@ -39,7 +39,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <SiCss3 className="text-blue-500" />
+                                        <SiCss3 title="CSS logo" className="text-blue-500" />
                                     </span>
                                     CSS
                                 </li>
@@ -51,7 +51,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <SiFigma className="text-black dark:text-white" />
+                                        <SiFigma title="Figma logo" className="text-black dark:text-white" />
                                     </span>
                                     Figma
                                 </li>
@@ -65,7 +65,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex -mt-3 md:-mt-0">
                                     <span className="mr-2">
-                                        <SiReact className="text-blue-300" />
+                                        <SiReact title="React logo" className="text-blue-300" />
                                     </span>
                                     React
                                 </li>
@@ -77,7 +77,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <SiTailwindcss className="text-cyan-400" />
+                                        <SiTailwindcss title="Tailwind logo" className="text-cyan-400" />
                                     </span>
                                     Tailwind
                                 </li>
@@ -89,7 +89,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <TbBrandNextjs className="text-black dark:text-white" />
+                                        <TbBrandNextjs title="Next.js logo" className="text-black dark:text-white" />
                                     </span>
                                     Nextjs
                                 </li>
@@ -101,7 +101,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <SiTypescript className="text-blue-400" />
+                                        <SiTypescript title="TypeScript logo" className="text-blue-400" />
                                     </span>
                                     TypeScript
                                 </li>
@@ -113,7 +113,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <SiPython className="text-black dark:text-white" />
+                                        <SiPython title="Python logo" className="text-black dark:text-white" />
                                     </span>
                                     Python
                                 </li>
@@ -125,7 +125,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <SiDjango className="text-green-400" />
+                                        <SiDjango title="Django logo" className="text-green-400" />
                                     </span>
                                     Django
                                 </li>

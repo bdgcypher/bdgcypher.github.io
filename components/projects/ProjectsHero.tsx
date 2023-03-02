@@ -7,7 +7,7 @@ import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwi
 export default function ProjectsHero() {
   return (
     <div id="home" className="pt-4 pl-4 bg-white dark:bg-black">
-      <a href="/" className="text-primary hover:text-secondary text-4xl transition ease-in-out duration-300">
+      <a href="/" aria-label="back button" className="text-primary hover:text-secondary text-4xl transition ease-in-out duration-300">
         <BiArrowBack />
       </a>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -30,25 +30,25 @@ export default function ProjectsHero() {
                 <ul className="space-y-3">
                   <li className="flex">
                     <span className="mr-2">
-                      <SiJavascript className="text-yellow-400" />
+                      <SiJavascript title="JavaScript logo" className="text-yellow-400" />
                     </span>
                     JavaScript
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiHtml5 className="text-orange-400" />
+                      <SiHtml5 title="HTML logo" className="text-orange-400" />
                     </span>
                     HTML
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiCss3 className="text-blue-500" />
+                      <SiCss3 title="CSS logo" className="text-blue-500" />
                     </span>
                     CSS
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiFigma className="text-black dark:text-white" />
+                      <SiFigma title="Figma logo" className="text-black dark:text-white" />
                     </span>
                     Figma
                   </li>
@@ -56,25 +56,25 @@ export default function ProjectsHero() {
                 <ul className="space-y-3">
                   <li className="flex -mt-3 md:-mt-0">
                     <span className="mr-2">
-                      <SiReact className="text-blue-300" />
+                      <SiReact title="React logo" className="text-blue-300" />
                     </span>
                     React
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiTailwindcss className="text-cyan-400" />
+                      <SiTailwindcss title="Tailwind logo" className="text-cyan-400" />
                     </span>
                     Tailwind
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <TbBrandNextjs className="text-black dark:text-white" />
+                      <TbBrandNextjs title="Next.js logo" className="text-black dark:text-white" />
                     </span>
                     Nextjs
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiTypescript className="text-blue-400" />
+                      <SiTypescript title="TypeScript logo" className="text-blue-400" />
                     </span>
                     TypeScript
                   </li>
@@ -82,13 +82,13 @@ export default function ProjectsHero() {
                 <ul className="space-y-3">
                   <li className="flex">
                     <span className="mr-2">
-                      <SiPython className="text-black dark:text-white" />
+                      <SiPython title="Python logo" className="text-black dark:text-white" />
                     </span>
                     Python
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiDjango className="text-green-400" />
+                      <SiDjango title="Django logo" className="text-green-400" />
                     </span>
                     Django
                   </li>
@@ -100,7 +100,7 @@ export default function ProjectsHero() {
           <div>
             <Tilt>
               <div className="to-animate scale-up flex justify-center">
-                <img src="/svg-7.svg" className="w-2/3" />
+                <img src="/svg-7.svg" alt="Man sitting on edge of desk with computer" className="w-2/3" />
               </div>
             </Tilt>
           </div>

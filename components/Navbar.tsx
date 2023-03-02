@@ -109,7 +109,7 @@ export default function SectionNavbar() {
                             </div>
                         </div>
                     </nav>
-                    <button onClick={() => { switchTheme() }} className="absolute top-6 right-10 hidden lg:block text-black dark:text-white text-2xl lg:text-3xl hover:text-primary dark:hover:text-primary hover:-translate-y-1 ease-in-out duration-300">
+                    <button onClick={() => { switchTheme() }} title="light/dark theme toggle" className="absolute top-6 right-10 hidden lg:block text-black dark:text-white text-2xl lg:text-3xl hover:text-primary dark:hover:text-primary hover:-translate-y-1 ease-in-out duration-300">
                         {
                             darkMode === true ? (
                                 <FiMoon />
@@ -132,7 +132,7 @@ export default function SectionNavbar() {
                     <Popover.Panel focus className="absolute z-20 top-0 inset-x-0 w-screen p-2 transition transform origin-top lg:hidden">
                         <div className="rounded-lg shadow-md bg-white/40 dark:bg-black/80 backdrop-filter backdrop-blur-xl backdrop-brightness-125 overflow-hidden">
                             <div className="px-5 pt-4 flex items-center justify-between">
-                                <button onClick={() => { switchTheme() }} className="absolute top-8 left-10 block lg:hidden text-black dark:text-white text-3xl hover:text-primary hover:-translate-y-1 ease-in-out duration-300">
+                                <button onClick={() => { switchTheme() }} title="light/dark theme toggle" className="absolute top-8 left-10 block lg:hidden text-black dark:text-white text-3xl hover:text-primary hover:-translate-y-1 ease-in-out duration-300">
                                     {
                                         darkMode === true ? (
                                             <FiMoon />

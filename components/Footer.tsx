@@ -80,11 +80,11 @@ export default function Footer() {
                     ))}
                 </div>
                 <div className="mt-8 md:order-1 md:mt-0">
-                    <p className="hidden md:block text-center text-lg leading-5 text-gray-500">
-                        Benajamin Goddard &copy; 2020. All rights reserved.
+                    <p className="hidden md:block text-center text-lg leading-5 text-gray-600 dark:text-gray-400">
+                        Benajamin Goddard &copy; {new Date().getFullYear()}. All rights reserved.
                     </p>
-                    <p className="block md:hidden text-center text-lg leading-5 text-gray-500">
-                        Benajamin Goddard &copy; 2020. <br />All rights reserved.
+                    <p className="block md:hidden text-center text-lg leading-5 text-gray-600 dark:text-gray-400">
+                        Benajamin Goddard &copy; {new Date().getFullYear()}. <br />All rights reserved.
                     </p>
                 </div>
             </div>
