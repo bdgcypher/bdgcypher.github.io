@@ -63,7 +63,7 @@ export default function Discover() {
                                 alt="Chat website homepage"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
-                                <p className="mb-4 text-3xl font-bold text-gray-100">TiP</p>
+                                <p className="mb-4 text-3xl font-bold text-gray-100">Axis</p>
                                 <p className="text-xl tracking-wide text-gray-300">
                                     A Discord-esque chat platform for me and my friends.
                                 </p>
