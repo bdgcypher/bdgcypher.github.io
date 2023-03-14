@@ -35,7 +35,9 @@ export default function Projects() {
                     <ProjectRight
                         title="Branch"
                         shortDescription="Creating a platform for easy Machine Learning integration for every enterprise."
-                        href="https://withbranch.com/"
+                        siteLink="https://withbranch.com/"
+                        sourceCodeLink="https://github.com/with-branch/email_labeler"
+                        designLink="https://www.figma.com/file/mla9ykXDcYsNiSLjgSBhF9/Labeler-Mock-Up?node-id=0%3A1&t=INodRxz8gwBB8LMo-0"
                         img1="branch.png"
                         img2="branch2.png"
                         img3="branch3.png"
@@ -54,7 +56,9 @@ export default function Projects() {
                     <ProjectLeft
                         title="TiP"
                         shortDescription="Providing Citizens and Elected Officials with a way to communicate on local policies and governance."
-                        href="/tip"
+                        siteLink="/tip"
+                        sourceCodeLink="https://github.com/bdgcypher/TiP-web"
+                        designLink={null}
                         img1="tip.jpg"
                         img2=""
                         img3=""
@@ -71,7 +75,9 @@ export default function Projects() {
                     <ProjectRight
                         title="Xplore"
                         shortDescription="My own spin on a Full fledged travel agency frontend."
-                        href="https://benjamingoddard.netlify.app/xplore"
+                        siteLink="https://benjamingoddard.netlify.app/xplore"
+                        sourceCodeLink="https://github.com/bdgcypher/xplore"
+                        designLink="https://www.figma.com/file/uapY8yKiRr96SKvzBlQyFD/Xplore?node-id=0%3A1&t=qzvFrBbgc0p61r3e-1"
                         img1="xplore.jpg"
                         img2="xplore2.png"
                         img3="xplore3.png"
@@ -86,7 +92,9 @@ export default function Projects() {
                     <ProjectLeft
                         title="Axis"
                         shortDescription="A Discord-esque chat platform for me and my friends."
-                        href="https://axis-chat.netlify.app"
+                        siteLink="https://axis-chat.netlify.app"
+                        sourceCodeLink="https://github.com/bdgcypher/Axis"
+                        designLink={null}
                         img1="axis.png"
                         img2="axis2.png"
                         img3="axis3.png"
@@ -101,7 +109,9 @@ export default function Projects() {
                     <ProjectRight
                         title="indigo"
                         shortDescription="An ecommerce style website to practice Tailwindcss and page layout design."
-                        href="https://shop-indigo.netlify.app/"
+                        siteLink="https://shop-indigo.netlify.app/"
+                        sourceCodeLink="https://github.com/bdgcypher/indigo"
+                        designLink="https://www.figma.com/file/2UlObTHpRVSisoQklbAzqJ/indigo?node-id=0%3A1&t=INodRxz8gwBB8LMo-0"
                         img1="indigo.jpg"
                         img2="indigo2.png"
                         img3=""
@@ -117,7 +127,9 @@ export default function Projects() {
                     <ProjectLeft
                         title="Portfolio v1"
                         shortDescription="My first iteration at a personal website before the current redesign."
-                        href="https://ben-portfolio-v1.netlify.app/"
+                        siteLink="https://ben-portfolio-v1.netlify.app/"
+                        sourceCodeLink="https://github.com/bdgcypher/portfolio-v1"
+                        designLink={null}
                         img1="bg.jpg"
                         img2="bg3.png"
                         img3="bg2.png"
@@ -133,7 +145,9 @@ export default function Projects() {
                     <ProjectRight
                         title="TRAVRSE"
                         shortDescription="My first website design!"
-                        href="https://traverse-web.netlify.app/"
+                        siteLink="https://traverse-web.netlify.app/"
+                        sourceCodeLink="https://github.com/bdgcypher/traverse-web"
+                        designLink={null}
                         img1="traverse.jpg"
                         img2="traverse2.png"
                         img3=""

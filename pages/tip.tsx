@@ -86,7 +86,7 @@ export default function TiP() {
                             </div>
                         </div>
                     </div>
-                    <div className="px-8">
+                    <div className="px-2 lg:px-8">
                         <iframe src="TiP-homepage-remake.html" id="iframe" className="h-screen w-full mx-auto mb-60 overflow-hidden rounded-md"></iframe>
                     </div>
                     <Contact />
