@@ -63,7 +63,7 @@ export default function Footer() {
         <footer className="bg-white dark:bg-black">
             <TypeIt options={{ speed: 10, waitUntilVisible: true }}>
                 <div className="h-20 text-center mx-auto w-3/4 md:w-full">
-                    <h1 className="text-black dark:text-white text-3xl md:text-4xl lg:text-5xl">Each day is a chance for an <span className="text-primary">Adventure</span>.</h1>
+                    <h1 className="text-black dark:text-white text-3xl md:text-4xl lg:text-5xl">Each day is a chance to <span className="text-primary">Level Up</span>!</h1>
                     <div className="mt-2 text-gray-400 text-md md:text-xl">
                         <p>&#47;&#47; So make it count.</p>
                     </div>
