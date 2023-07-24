@@ -40,17 +40,17 @@ export default function Discover() {
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-6">
-                    <a target="_blank" href="https://withbranch.com/" aria-label="View Item" className="discover from-bottom first h-auto">
+                    <a target="_blank" href="https://branch-dashboard-prototype.netlify.app/" aria-label="View Item" className="discover from-bottom first h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
-                                src="/branch1.png"
+                                src="/branch_dashboard_prototype.png"
                                 alt="Machine Learning website homepage"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
-                                <p className="mb-4 text-3xl font-bold text-gray-100">Branch</p>
+                                <p className="mb-4 text-3xl font-bold text-gray-100">Dashboard Prototype</p>
                                 <p className="text-xl tracking-wide text-gray-300">
-                                    Creating a platform for easy Machine Learning integration for every enterprise.
+                                    It's your data, display it <i>your</i> way!
                                 </p>
                             </div>
                         </div>

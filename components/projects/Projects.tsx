@@ -33,22 +33,22 @@ export default function Projects() {
                 </div>
                 <div>
                     <ProjectRight
-                        title="Branch"
+                        title="Branch Dashboard Prototype"
                         shortDescription="Creating a platform for easy Machine Learning integration for every enterprise."
-                        siteLink="https://withbranch.com/"
-                        sourceCodeLink="https://github.com/with-branch/email_labeler"
+                        siteLink="https://branch-dashboard-prototype.netlify.app/"
+                        sourceCodeLink="https://github.com/with-branch/dashboard-prototype/"
                         designLink="https://www.figma.com/file/mla9ykXDcYsNiSLjgSBhF9/Labeler-Mock-Up?node-id=0%3A1&t=INodRxz8gwBB8LMo-0"
                         img1="branch1.png"
                         img2="branch2.png"
                         img3="branch3.png"
                         header="Idea &#8594; design &#8594; code"
                         longDescription="Branch is an up and coming start-up focused on bringing machine learning to the masses. 
-                            Although currently in the beta phase, they hope to launch soon.
-                            For the last year and a half I worked as a frontend UI/UX designer and react developer for Branch. 
+                            Although currently in the beta phase, they hope to launch soon. For the last year and a half I worked as a frontend UI/UX designer and react developer for Branch. 
                             From brainstorming product ideas and sketching potential designs to full page prototypes and responsive react components.
                             I created page layouts and component designs in figma, collaborating with the founders and other team members to create a functional, fully responsive and eye-pleasing application.
                             I used technologies such as Next.js and Graphql to implement fast and responsive pages and styled them with Tailwind. 
-                            All and all this work pushed me to grow and helped me get my feet firmly planted in the world of tech!"
+                            All and all this work pushed me to grow and helped me get my feet firmly planted in the world of tech! This project was initially developed as a prototype for Branch's 
+                            Data monitoring dashboard. I also worked on a dataset labeler for sorting and labeling datasets meant to train our machine learning models. The figma design is linked above."
                         skillsArray={["JavaScript", "HTML", "CSS", "Figma", "React", "Tailwind", "Nextjs", "TypeScript"]}
                     />
                 </div>
