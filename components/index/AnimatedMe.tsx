@@ -43,7 +43,7 @@ export default function AnimatedMe() {
             <div className="text-gray-400 text-md md:text-xl -mt-10">
                 <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true }}
                     getBeforeInit={(instance) => {
-                        instance.type("&#47;&#47; Hmmm... is this too creepy to put on my website?").pause(2000).delete().pause(500).type("&#47;&#47; Try moving the mouse over the 'let's do this' button ;)");
+                        instance.type("&#47;&#47; Hmmm... is this too creepy to put on my website?").pause(2000).delete().pause(500).type("&#47;&#47; Try moving the mouse over the 'Contact me' button ;)");
                         return instance;
                     }}
                 ></TypeIt>
