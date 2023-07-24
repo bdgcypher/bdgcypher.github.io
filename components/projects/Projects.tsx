@@ -38,7 +38,7 @@ export default function Projects() {
                         siteLink="https://withbranch.com/"
                         sourceCodeLink="https://github.com/with-branch/email_labeler"
                         designLink="https://www.figma.com/file/mla9ykXDcYsNiSLjgSBhF9/Labeler-Mock-Up?node-id=0%3A1&t=INodRxz8gwBB8LMo-0"
-                        img1="branch.png"
+                        img1="branch1.png"
                         img2="branch2.png"
                         img3="branch3.png"
                         header="Idea &#8594; design &#8594; code"
