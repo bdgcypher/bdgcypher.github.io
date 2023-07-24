@@ -16,19 +16,19 @@ export default function Hero() {
 
                     <div className="flex flex-col h-60 w-full max-w-xl">
                         <TypeIt options={{ speed: 10, waitUntilVisible: true }}>
-                            <p className="text-gray-400 text-md md:text-xl">&#60;h1&#62;</p>
+                            <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;h1&#62;</p>
                             <h1 className="ml-6 md:ml-10 text-black dark:text-white font-semibold text-4xl md:text-5xl lg:text-6xl">Hello, World! I'm Ben</h1>
-                            <p className="text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>
-                            <p className="mt-2 text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
+                            <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>
+                            <p className="mt-2 text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
                             <div className="flex flex-row">
                                 <div className="ml-6 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
                                     Frontend 
-                                    <a href="https://github.com/bdgcypher" target="_blank" className="text-xl mx-2 text-green-500 hover:text-green-300 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Coder /&#62;</b></a> 
+                                    <a href="https://github.com/bdgcypher" target="_blank" className="text-xl mx-2 text-green-600 hover:text-green-500 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Coder /&#62;</b></a> 
                                     and 
                                     <a href="https://www.figma.com/file/q1aDGIHSrdusRIj4vRAhLg/Portfolio-website-v2?node-id=0%3A1&t=wwHAduM5Or1F60Wy-1" target="_blank"  className="text-xl md:text-3xl text-indigo-500 hover:text-indigo-300 transition duration-300 ease-in-out">&#10024;<b>Designer</b>&#10024;</a>
                                 </div>
                             </div>
-                            <p className="text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
+                            <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
                         </TypeIt>
                     </div>
                     <Tilt>

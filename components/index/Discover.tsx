@@ -24,18 +24,18 @@ export default function Discover() {
                 <div className="hidden lg:flex flex-col mb-10">
                     <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true, afterComplete: () => startAnimation()}}
                     >
-                        <p className="strikethrough text-gray-400 text-md md:text-xl" >&#47;&#47; TODO:</p>
+                        <p className="strikethrough text-gray-600 dark:text-gray-400 text-md md:text-xl" >&#47;&#47; TODO:</p>
                         <br/>
-                        <p className="strikethrough text-gray-400 text-md md:text-xl">&#47;&#47; Code a cool grid with some recent projects here &#8595;&#8595;&#8595;</p>
+                        <p className="strikethrough text-gray-600 dark:text-gray-400 text-md md:text-xl">&#47;&#47; Code a cool grid with some recent projects here &#8595;&#8595;&#8595;</p>
                     </TypeIt>
                 </div>
                 <div className="flex flex-col lg:hidden mb-10">
                     <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true, afterComplete: () => startAnimation()}}>
-                        <p className="strikethrough text-gray-400 text-md md:text-xl">&#47;&#47; TODO:</p>
+                        <p className="strikethrough text-gray-600 dark:text-gray-400 text-md md:text-xl">&#47;&#47; TODO:</p>
                         <br/>
-                        <p className="strikethrough text-gray-400 text-md md:text-xl">&#47;&#47; Code a cool grid with</p>
+                        <p className="strikethrough text-gray-600 dark:text-gray-400 text-md md:text-xl">&#47;&#47; Code a cool grid with</p>
                         <br/>
-                        <p className="strikethrough text-gray-400 text-md md:text-xl">&#47;&#47; some recent projects here &#8595;&#8595;&#8595;</p>
+                        <p className="strikethrough text-gray-600 dark:text-gray-400 text-md md:text-xl">&#47;&#47; some recent projects here &#8595;&#8595;&#8595;</p>
                     </TypeIt>
                 </div>
 

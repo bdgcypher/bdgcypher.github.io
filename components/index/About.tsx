@@ -1,6 +1,5 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
-import TypeIt from "typeit-react";
 
 export default function About() {
 

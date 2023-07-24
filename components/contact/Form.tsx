@@ -45,7 +45,7 @@ export default function Form() {
                                 <textarea name="message" id="comment" placeholder="enter a message" rows={10} cols={40} className="flex-1 w-full px-4 py-2 text-base text-black dark:text-white placeholder-gray-400 bg-white dark:bg-onyx border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600">
                                 </textarea>
                             </div>
-                            <p id="messageSent" className="col-span-2 hidden text-center text-gray-400">Message sent. Thanks for reaching out!</p>
+                            <p id="messageSent" className="col-span-2 hidden text-center text-gray-600 dark:text-gray-400">Message sent. Thanks for reaching out!</p>
                             <div className="col-span-2 text-right">
                                 <button onClick={() => {
                                     document.getElementById("messageSent")?.classList.add("block");

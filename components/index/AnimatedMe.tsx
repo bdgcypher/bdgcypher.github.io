@@ -40,7 +40,7 @@ export default function AnimatedMe() {
                     <ellipse rx="2" ry="2" transform="matrix(.438183 0 0 0.438183 136.250498 139.750747)" fill="#d2dbed" strokeWidth="0" />
                 </g>
             </svg>
-            <div className="text-gray-400 text-md md:text-xl -mt-10">
+            <div className="text-gray-600 dark:text-gray-400 text-md md:text-xl -mt-10">
                 <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true }}
                     getBeforeInit={(instance) => {
                         instance.type("&#47;&#47; Hmmm... is this too creepy to put on my website?").pause(2000).delete().pause(500).type("&#47;&#47; Try moving the mouse over the 'Contact me' button ;)");
