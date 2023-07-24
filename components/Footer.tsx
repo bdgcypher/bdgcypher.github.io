@@ -64,7 +64,7 @@ export default function Footer() {
             <TypeIt options={{ speed: 10, waitUntilVisible: true }}>
                 <div className="h-20 text-center mx-auto w-3/4 md:w-full">
                     <h1 className="text-black dark:text-white text-3xl md:text-4xl lg:text-5xl">Each day is a chance to <span className="text-primary">Level Up</span>!</h1>
-                    <div className="mt-2 text-gray-600 dark:text-gray-400 text-md md:text-xl">
+                    <div className="mt-2 text-gray-400 text-md md:text-xl">
                         <p>&#47;&#47; So make it count.</p>
                     </div>
                 </div>
@@ -73,17 +73,17 @@ export default function Footer() {
             <div className="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
                 <div className="mt-10 flex justify-center space-x-6 md:order-2">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} target={item.target} onClick={item.onClick} className="text-gray-600 dark:text-gray-400 hover:text-gray-500">
+                        <a key={item.name} href={item.href} target={item.target} onClick={item.onClick} className="text-gray-400 hover:text-gray-500">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-6 w-6" aria-hidden="true" />
                         </a>
                     ))}
                 </div>
                 <div className="mt-8 md:order-1 md:mt-0">
-                    <p className="hidden md:block text-center text-lg leading-5 text-gray-600 dark:text-gray-600 dark:text-gray-400">
+                    <p className="hidden md:block text-center text-lg leading-5 text-gray-600 dark:text-gray-400">
                         Benajamin Goddard &copy; {new Date().getFullYear()}. All rights reserved.
                     </p>
-                    <p className="block md:hidden text-center text-lg leading-5 text-gray-600 dark:text-gray-600 dark:text-gray-400">
+                    <p className="block md:hidden text-center text-lg leading-5 text-gray-600 dark:text-gray-400">
                         Benajamin Goddard &copy; {new Date().getFullYear()}. <br />All rights reserved.
                     </p>
                 </div>
