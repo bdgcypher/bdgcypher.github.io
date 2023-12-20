@@ -19,7 +19,7 @@ export default function ProjectsHero() {
                 Projects
               </h2>
               <p className="text-lg text-gray-800 dark:text-gray-300 md:text-xl">
-              I've worked with start-ups and tech companies on a range of different projects, collaborating, contributing and brainstorming, website design and component creation.
+              I've worked with start-ups and tech companies on a range of different projects, from collaborating, contributing and brainstorming, to website design and component creation.
               </p>
             </div>
             <div className="to-animate from-bottom mb-8">
