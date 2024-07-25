@@ -15,9 +15,9 @@ export default function ProjectsHero() {
         <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
             <div className="to-animate from-left max-w-xl mb-6">
-              <h2 className="max-w-lg mb-6 font-sans text-5xl font-bold tracking-tight text-black dark:text-white md:text-6xl sm:leading-none">
+              <h1 className="max-w-lg mb-6 font-sans text-5xl font-bold tracking-tight text-black dark:text-white md:text-6xl sm:leading-none">
                 Projects
-              </h2>
+              </h1>
               <p className="text-lg text-gray-800 dark:text-gray-300 md:text-xl">
               I've worked with start-ups and tech companies on a range of different projects, from collaborating, contributing and brainstorming, to website design and component creation.
               </p>
