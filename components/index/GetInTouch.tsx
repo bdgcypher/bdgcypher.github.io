@@ -16,7 +16,7 @@ export default function GetInTouch() {
 
 
                     <div className="to-animate from-left flex flex-col w-full max-w-xl">
-                        <h1 className="mb-10 ml-0 md:ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Looking to start a project?</h1>
+                        <h2 className="mb-10 ml-0 md:ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Looking to start a project?</h2>
                         <p className="mb-8 ml-0 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
                             Schedule a time to meet. I can't wait to hear your idea!
                         </p>
