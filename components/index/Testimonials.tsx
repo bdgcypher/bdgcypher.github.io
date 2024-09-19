@@ -42,9 +42,9 @@ export default function Testimonials() {
                     <div className="testimonial from-bottom first flex">
                         <div>
                             <div className="mt-0 md:mt-10 mb-2">
-                                <h1 className="inline-block text-4xl font-bold leading-5 text-black dark:text-white">
+                                <h3 className="inline-block text-4xl font-bold leading-5 text-black dark:text-white">
                                     Creative and Clever
-                                </h1>
+                                </h3>
                             </div>
                             <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
                                 Ben is a bullet bike of a frontend designer and developer. He's a great team player, incredible collaborator,
@@ -70,9 +70,9 @@ export default function Testimonials() {
                     <div className="testimonial from-bottom second flex">
                         <div>
                             <div className="mb-2">
-                                <h1 className="inline-block text-4xl font-bold text-black dark:text-white">
+                                <h3 className="inline-block text-4xl font-bold text-black dark:text-white">
                                     Fantastic Communicator
-                                </h1>
+                                </h3>
                             </div>
                             <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
                                 He is a fantastic communicator, and has the ability to connect well with people of all ages. He has the ability to break down complex tasks into simple and understandable steps.
@@ -99,9 +99,9 @@ export default function Testimonials() {
                     <div className="testimonial from-bottom third flex">
                         <div>
                             <div className="mb-2">
-                                <h1 className="inline-block text-4xl font-bold leading-5 text-black dark:text-white">
+                                <h3 className="inline-block text-4xl font-bold leading-5 text-black dark:text-white">
                                     Hardworking
-                                </h1>
+                                </h3>
                             </div>
                             <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
                                 Ben Goddard is a confident, hardworking team player who is logical enough to complete complex tasks while also creative enough to problem solve and think outside the box.
