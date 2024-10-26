@@ -15,11 +15,11 @@ export default function Discover() {
             <svg className="hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1E1F1F" fillOpacity="1" d="M0,64L120,58.7C240,53,480,43,720,80C960,117,1200,203,1320,245.3L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
             <div id="discoverSection" className="page-section px-4 pb-16 mx-auto -mt-0 lg:-mt-32 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:pb-20">
                 <div className="flex flex-col mb-0 justify-left lg:justify-center lg:flex-row md:mb-8">
-                    <h2 className="to-animate from-bottom mb-5 font-semibold text-3xl md:text-4xl lg:text-5xl text-black dark:text-white sm:leading-none md:mb-6 group">
+                    <div className="to-animate from-bottom mb-5 font-semibold text-3xl md:text-4xl lg:text-5xl text-black dark:text-white sm:leading-none md:mb-6 group">
                         <h2 className="inline-block text-center mx-20 md:mx-10">
                             Talk is cheap, let's see some results
                         </h2>
-                    </h2>
+                    </div>
                 </div>
                 <div className="hidden lg:flex flex-col mb-10">
                     <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true, afterComplete: () => startAnimation()}}

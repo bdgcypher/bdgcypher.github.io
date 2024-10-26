@@ -81,12 +81,9 @@ export default function SectionNavbar() {
         <div className="fixed w-screen z-40">
             <Popover as="header" className="inset-x-1 z-100">
                 <div className="h-14 pt-4 mt-4 mx-2 rounded-full bg-white/40 dark:bg-black/80 shadow-xl backdrop-filter backdrop-blur-xl backdrop-brightness-125 lg:h-full lg:mt-0 lg:mx-0 lg:bg-transparent dark:lg:bg-transparent lg:shadow-none lg:backdrop-filter-none">
-                    {/* <TypeIt> */}
-                    <h1 className="absolute top-3 left-6 lg:top-10 lg:left-10 text-primary text-3xl lg:text-4xl">
+                    <p className="absolute top-3 left-6 lg:top-10 lg:left-10 text-primary text-3xl lg:text-4xl">
                         BG
-                        {/* BenjaminGoddard<span className="text-white">.</span><span className="text-green-500">portfolio</span><span className="text-white">.</span><span className="text-secondary">_</span> */}
-                    </h1>
-                    {/* </TypeIt> */}
+                    </p>
                     <nav
                         className="relative ml-10 mx-auto flex items-center justify-around px-6 lg:px-2"
                         aria-label="Global"
