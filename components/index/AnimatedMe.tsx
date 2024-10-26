@@ -3,6 +3,22 @@ import TypeIt from "typeit-react";
 
 export default function AnimatedMe() {
 
+    const setSmile = () => {
+        const smile = document.getElementById("smile")
+        smile != null ? (
+            smile.classList.add("opacity-100"),
+            smile.classList.remove("opacity-0")
+        ) : (null)
+    }
+
+    const removeSmile = () => {
+        const smile = document.getElementById("smile")
+        smile != null ? (
+            smile.classList.remove("opacity-100"),
+            smile.classList.add("opacity-0")
+        ) : (null)
+    }
+
     return (
         <div className="bg-tertiary dark:bg-raisin h-screen flex flex-col group text-center pb-0 lg:pb-20">
             <svg className="block dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FCFCFC" fillOpacity="1" d="M0,192L40,176C80,160,160,128,240,117.3C320,107,400,117,480,154.7C560,192,640,256,720,234.7C800,213,880,107,960,58.7C1040,11,1120,21,1200,32C1280,43,1360,53,1400,58.7L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
@@ -18,7 +34,7 @@ export default function AnimatedMe() {
                 <ellipse rx="9.632317" ry="10" transform="matrix(.701719 0 0 0.638557 123.240797 165.386963)" fill="#ede3d1" strokeWidth="0" strokeLinecap="round" />
                 <path d="M170,170q5-4.613036,10-4.613036" transform="translate(-.18888 0)" fill="none" stroke="#b5aa9a" strokeWidth="0.6" strokeLinecap="round" />
                 <path d="M170,170q5-4.613036,10-4.613036" transform="matrix(-1.073532 0 0 0.999944 312.500414 0.009398)" fill="none" stroke="#b5aa9a" strokeWidth="0.6" strokeLinecap="round" />
-                <ellipse id="head" rx="30.367672" ry="40.000001" transform="translate(149.632328 147.693481)" fill="#ede3d1" strokeWidth="0" strokeLinecap="round" />
+                <ellipse onMouseEnter={() => { setSmile() }} onMouseLeave={() => { removeSmile() }} id="head" rx="30.367672" ry="40.000001" transform="translate(149.632328 147.693481)" fill="#ede3d1" strokeWidth="0" strokeLinecap="round" />
                 <path id="mouth" d="M140,166.408648q7.342027,5.387083,14.684053,1.284963" transform="translate(2.097183 2.306389)" fill="none" stroke="#b5aa9a" strokeWidth="2" strokeLinecap="round" />
                 <g id="smile" className="opacity-0">
                     <path d="M140,166.408648q7.342027,5.387083,14.684053,1.284963" transform="translate(2.097183 2.306382)" fill="none" stroke="#423c34" strokeWidth="8" strokeLinecap="round" />
@@ -40,10 +56,18 @@ export default function AnimatedMe() {
                     <ellipse rx="2" ry="2" transform="matrix(.438183 0 0 0.438183 136.250498 139.750747)" fill="#d2dbed" strokeWidth="0" />
                 </g>
             </svg>
-            <div className="text-gray-600 dark:text-gray-400 text-md md:text-xl -mt-10">
+            <div className="text-gray-600 dark:text-gray-400 text-md md:text-xl -mt-10 hidden md:block">
                 <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true }}
                     getBeforeInit={(instance) => {
                         instance.type("&#47;&#47; Hmmm... is this too creepy to put on my website?").pause(2000).delete().pause(500).type("&#47;&#47; Try moving the mouse over the 'Contact me' button ;)");
+                        return instance;
+                    }}
+                ></TypeIt>
+            </div>
+            <div className="text-gray-600 dark:text-gray-400 text-md md:text-xl -mt-10 block md:hidden">
+                <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true }}
+                    getBeforeInit={(instance) => {
+                        instance.type("&#47;&#47; Hmmm... is this too creepy to put on my website?").pause(2000).delete().pause(500).type("&#47;&#47; Try double tapping around your <br /> screen, or on my face! ;)");
                         return instance;
                     }}
                 ></TypeIt>

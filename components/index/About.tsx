@@ -5,7 +5,7 @@ export default function About() {
 
 
     return (
-        <div id="about" className="h-screen-2xl lg:h-screen pt-20 md:pt-40 pb-10 -mb-0 3xl:-mb-40 bg-white dark:bg-black text-black dark:text-white">
+        <div id="about" className="h-full pt-20 md:pt-40 pb-10 -mb-0 3xl:-mb-40 bg-white dark:bg-black text-black dark:text-white">
             <div id="aboutSection" className="page-section px-4 md:px-20">
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
