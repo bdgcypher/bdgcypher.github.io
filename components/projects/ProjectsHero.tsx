@@ -3,6 +3,7 @@ import Tilt from 'react-parallax-tilt';
 import { BiArrowBack } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss, SiPython, SiDjango } from 'react-icons/si'
+import { RxAccessibility } from 'react-icons/rx';
 
 export default function ProjectsHero() {
   return (
@@ -19,7 +20,7 @@ export default function ProjectsHero() {
                 Projects
               </h1>
               <p className="text-lg text-gray-800 dark:text-gray-300 md:text-xl">
-              I've worked with start-ups and tech companies on a range of different projects, from collaborating, contributing and brainstorming, to website design and component creation.
+                I've worked with start-ups and tech companies on a range of different projects, from collaborating, contributing and brainstorming, to website design and component creation.
               </p>
             </div>
             <div className="to-animate from-bottom mb-8">
@@ -80,6 +81,12 @@ export default function ProjectsHero() {
                   </li>
                 </ul>
                 <ul className="space-y-3">
+                  <li className="flex">
+                    <span className="mr-2">
+                      <RxAccessibility title="Accessibility Icon" className="text-gray-400 text-xl" />
+                    </span>
+                    WCAG Accessibility
+                  </li>
                   <li className="flex">
                     <span className="mr-2">
                       <SiPython title="Python logo" className="text-black dark:text-white" />

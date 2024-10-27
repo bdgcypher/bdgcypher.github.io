@@ -1,4 +1,5 @@
 import { TbBrandNextjs } from "react-icons/tb";
+import { RxAccessibility } from "react-icons/rx";
 import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss, SiPython, SiDjango } from 'react-icons/si'
 
 export default function Skills({ skillsArray }: { skillsArray: Array<string> }) {
@@ -128,6 +129,18 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                                         <SiDjango title="Django logo" className="text-green-400" />
                                     </span>
                                     Django
+                                </li>
+                            </>
+                        ) : (null)
+                    }
+                    {
+                        skillsArray.includes("WCAG") ? (
+                            <>
+                                <li className="flex">
+                                    <span className="mr-2">
+                                        <RxAccessibility title="Accessibility Icon" className="text-gray-400 text-xl" />
+                                    </span>
+                                    WCAG Accessibility
                                 </li>
                             </>
                         ) : (null)
