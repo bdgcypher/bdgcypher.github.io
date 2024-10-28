@@ -1,6 +1,6 @@
 import { TbBrandNextjs } from "react-icons/tb";
 import { RxAccessibility } from "react-icons/rx";
-import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss, SiPython, SiDjango } from 'react-icons/si'
+import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss, SiPython, SiDjango, SiJira } from 'react-icons/si'
 
 export default function Skills({ skillsArray }: { skillsArray: Array<string> }) {
 
@@ -66,7 +66,7 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex -mt-3 md:-mt-0">
                                     <span className="mr-2">
-                                        <SiReact title="React logo" className="text-blue-300" />
+                                        <SiReact title="React logo" className="text-blue-400 dark:text-blue-300" />
                                     </span>
                                     React
                                 </li>
@@ -138,9 +138,21 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                             <>
                                 <li className="flex">
                                     <span className="mr-2">
-                                        <RxAccessibility title="Accessibility Icon" className="text-gray-400 text-xl" />
+                                        <RxAccessibility title="Accessibility Icon" className="text-black dark:text-white text-xl" />
                                     </span>
                                     WCAG Accessibility
+                                </li>
+                            </>
+                        ) : (null)
+                    }
+                    {
+                        skillsArray.includes("Jira") ? (
+                            <>
+                                <li className="flex">
+                                    <span className="mr-2">
+                                        <SiJira title="Accessibility Icon" className="text-blue-600" />
+                                    </span>
+                                    Jira
                                 </li>
                             </>
                         ) : (null)

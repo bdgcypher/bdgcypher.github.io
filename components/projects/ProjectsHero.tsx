@@ -57,7 +57,7 @@ export default function ProjectsHero() {
                 <ul className="space-y-3">
                   <li className="flex -mt-3 md:-mt-0">
                     <span className="mr-2">
-                      <SiReact title="React logo" className="text-blue-300" />
+                      <SiReact title="React logo" className="text-blue-400 dark:text-blue-300" />
                     </span>
                     React
                   </li>
@@ -83,9 +83,15 @@ export default function ProjectsHero() {
                 <ul className="space-y-3">
                   <li className="flex">
                     <span className="mr-2">
-                      <RxAccessibility title="Accessibility Icon" className="text-gray-400 text-xl" />
+                      <RxAccessibility title="Accessibility Icon" className="text-black dark:text-white text-xl" />
                     </span>
                     WCAG Accessibility
+                  </li>
+                  <li className="flex">
+                    <span className="mr-2">
+                      <SiPython title="Jira logo" className="text-blue-600" />
+                    </span>
+                    Jira
                   </li>
                   <li className="flex">
                     <span className="mr-2">

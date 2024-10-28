@@ -49,7 +49,7 @@ export default function Projects() {
                         with the marketing / legal teams for sensitive public-facing material. My accomplishments include building new pages by gathering requirements, creating mockups, iterating, 
                         and deploying. I am also highly involved in revamping outdated components and pages to enhance UI/UX design, promote acessibility and usability, and ensure a quality experience 
                         for all users. I am proud to be part of an organization that is centered around helping their students learn, grow, and succeed in their future careers."
-                        skillsArray={["JavaScript", "HTML", "CSS", "WCAG"]}
+                        skillsArray={["JavaScript", "HTML", "CSS", "WCAG", "Jira"]}
                     />
                 </div>
                 <div>
