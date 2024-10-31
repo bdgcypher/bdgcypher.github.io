@@ -45,7 +45,7 @@ export default function Discover() {
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/branch_dashboard_prototype.png"
-                                alt="Machine Learning website homepage"
+                                alt="Machine Learning website homepage with graphs and tables."
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
                                 <p className="mb-4 text-3xl font-bold text-gray-100">Dashboard Prototype</p>
@@ -60,7 +60,7 @@ export default function Discover() {
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/axis.png"
-                                alt="Chat website homepage"
+                                alt="Chat website homepage with illustration of people sitting in chat bubbles"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
                                 <p className="mb-4 text-3xl font-bold text-gray-100">Axis</p>
@@ -75,7 +75,7 @@ export default function Discover() {
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/xplore.jpg"
-                                alt="Travel website homepage"
+                                alt="Travel website homepage with mountains in the background"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
                                 <p className="mb-4 text-3xl font-bold text-gray-100">Xplore</p>
