@@ -41,6 +41,9 @@ export default function Projects() {
                         img1="suu.jpg"
                         img2="suu2.jpg"
                         img3="suu3.jpg"
+                        imgAlt1="Southern Utah University website homepage"
+                        imgAlt2="Section of an SUU webpage with images and text"
+                        imgAlt3="Section of an SUU webpage with with icons and navigation links"
                         header="Quality, Accessibility, Usability"
                         longDescription="With 8000+ pages, documents, and various integrations, working for SUU has kept me busy! As a Web Developer at a university dedicated to student success 
                         and quality information, I design and prototype web components and pages, manage the rollout of new features, bug fixes, and updates to the JavaScript and SCSS codebase. 
@@ -62,6 +65,9 @@ export default function Projects() {
                         img1="branch1.png"
                         img2="branch2.png"
                         img3="branch3.png"
+                        imgAlt1="Branch homepage"
+                        imgAlt2="A User Interface displaying Machine Learning training data"
+                        imgAlt3="A data dashboard showing graphs and charts"
                         header="Idea &#8594; design &#8594; code"
                         longDescription="Branch is an up and coming start-up focused on bringing machine learning to the masses. 
                             Although currently in the beta phase, they hope to launch soon. For the last year and a half I worked as a frontend UI/UX designer and react developer for Branch. 
@@ -83,6 +89,9 @@ export default function Projects() {
                         img1="tip.jpg"
                         img2=""
                         img3=""
+                        imgAlt1="TiP homepage with text and an image of a hand holding a microphone"
+                        imgAlt2=""
+                        imgAlt3=""
                         header="Breaking into the tech world"
                         longDescription="I spent the majority of 2021 as a paid intern at TiP (Transparency in Politics) building their web app with Python, Django, HTML5, and CSS.
                             This was my first professional position in the developer world and helped jumpstart my love of all things tech!
@@ -102,6 +111,9 @@ export default function Projects() {
                         img1="xplore.jpg"
                         img2="xplore2.png"
                         img3="xplore3.png"
+                        imgAlt1="Xplore homepage with mountains in the background"
+                        imgAlt2="Travel website page with images of pyramids and treehouses"
+                        imgAlt3="Webpage with content cards and an image of a woman looking at a map"
                         header="Looking professional"
                         longDescription="Xplore is an impressive travel website frontend comprised of 11 pages, loads of animations and effects, 
                         beautiful design elements and color scheming, and lots of work to make this 'practice' project as close to industry standard as you can get.
@@ -119,6 +131,9 @@ export default function Projects() {
                         img1="axis.png"
                         img2="axis2.png"
                         img3="axis3.png"
+                        imgAlt1="Illustrations of people sitting inside of chat bubbles"
+                        imgAlt2="User interface showing chat channels and options"
+                        imgAlt3="Chat interface with messages and images"
                         header="Login with username and password: 'guest'"
                         longDescription="A personal project I have been working on to improve my  knowledge of React Hooks and connect with my friends! 
                         A full fledged web application including authentication, channels, direct messages and threads. Fully capable of sending images, videos, gifs and emojis.
@@ -136,6 +151,9 @@ export default function Projects() {
                         img1="indigo.jpg"
                         img2="indigo2.png"
                         img3=""
+                        imgAlt1="Ecommerce website with images of clothing models"
+                        imgAlt2="Merchandise page showcasine products such as bottles, desk accessories, and clothing"
+                        imgAlt3=""
                         header="Would you buy this design on Amazon?"
                         longDescription="Indigo is an ecommerce based frontend web application created to familiarize myself with and 
                         demonstrate use of TailwindUI template elements and is built on the React.js framework. 
@@ -154,6 +172,9 @@ export default function Projects() {
                         img1="bg.jpg"
                         img2="bg3.png"
                         img3="bg2.png"
+                        imgAlt1="Website homepage with magenta data points floating in the background"
+                        imgAlt2="Projects page with illustrations of a laptop and a smartphone"
+                        imgAlt3="Webpapage with images of different developer projects"
                         header="Let me introduce myself"
                         longDescription="This webpage was my initial portfolio. It domonstrates knowledge in React.js, 
                         web-hooks, HTML, CSS, Scroll Effects, multiple page integration, and decent Web-Design. 
@@ -172,6 +193,9 @@ export default function Projects() {
                         img1="traverse.jpg"
                         img2="traverse2.png"
                         img3=""
+                        imgAlt1="Travel website homepage with a starry sky and mountains in the background"
+                        imgAlt2="A user interface showcasing different vacation trips and locations"
+                        imgAlt3=""
                         header="Get the ball rolling"
                         longDescription="Traverse is a travel-guide type website frontend with clean-cut cards, 
                         fantastic footers, and creative content. Built with React.js, Traverse is a simple, yet elegant beginner javascript Web Project.

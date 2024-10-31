@@ -3,8 +3,8 @@ import { BiCodeAlt, BiLinkExternal } from "react-icons/bi"
 import { MdDevices, MdOutlinePalette } from "react-icons/md";
 
 export default function ProjectRight(
-    { title, shortDescription, siteLink, sourceCodeLink, designLink, img1, img2, img3, header, longDescription, skillsArray }:
-        { title: string, shortDescription: string, siteLink: string, sourceCodeLink: string, designLink: any, img1: string, img2: string, img3: string, header: string, longDescription: string, skillsArray: Array<string> }
+    { title, shortDescription, siteLink, sourceCodeLink, designLink, img1, img2, img3, imgAlt1, imgAlt2, imgAlt3, header, longDescription, skillsArray }:
+        { title: string, shortDescription: string, siteLink: string, sourceCodeLink: string, designLink: any, img1: string, img2: string, img3: string, imgAlt1: string, imgAlt2: string, imgAlt3: string, header: string, longDescription: string, skillsArray: Array<string> }
 ) {
 
 
@@ -47,21 +47,21 @@ export default function ProjectRight(
                         <img
                             className="object-cover w-full col-span-2 rounded shadow-lg"
                             src={img1}
-                            alt="Project image"
+                            alt={imgAlt1}
                         />
                     ) : (null)}
                     {img2 !== "" ? (
                         <img
                             className="object-cover w-full rounded shadow-lg"
                             src={img2}
-                            alt="Project image"
+                            alt={imgAlt2}
                         />
                     ) : (null)}
                     {img3 !== "" ? (
                         <img
                             className="object-cover w-full rounded shadow-lg"
                             src={img3}
-                            alt="Project image"
+                            alt={imgAlt3}
                         />
                     ) : (null)}
                 </div>
