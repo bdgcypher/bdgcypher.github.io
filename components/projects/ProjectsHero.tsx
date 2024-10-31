@@ -113,7 +113,7 @@ export default function ProjectsHero() {
           <div>
             <Tilt>
               <div className="to-animate scale-up flex justify-center">
-                <img src="/svg-7.svg" alt="Man sitting on edge of desk with computer" className="w-2/3" />
+                <img src="/svg-7.svg" alt="Man sitting on edge of a desk with a computer" className="w-2/3" />
               </div>
             </Tilt>
           </div>
