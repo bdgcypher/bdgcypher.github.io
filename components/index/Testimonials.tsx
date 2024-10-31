@@ -53,7 +53,7 @@ export default function Testimonials() {
                             <div className="flex items-center">
                                 <img
                                     src="/ScottRafferty.png"
-                                    alt="picture of Scott"
+                                    alt="Scott Rafferty headshot"
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
                                 />
                                 <div>
@@ -82,7 +82,7 @@ export default function Testimonials() {
                             <div className="flex items-center">
                                 <img
                                     src="/TerralFox.png"
-                                    alt="picture of Terral"
+                                    alt="Terral Fox headshot"
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
                                 />
                                 <div>
@@ -110,7 +110,7 @@ export default function Testimonials() {
                             <div className="flex items-center">
                                 <img
                                     src="/NickLagnese.png"
-                                    alt="picture of Nick"
+                                    alt="Nick Lagnese headshot"
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
                                 />
                                 <div>
