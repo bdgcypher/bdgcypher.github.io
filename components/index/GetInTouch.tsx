@@ -10,7 +10,7 @@ export default function GetInTouch() {
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
                         <div className="to-animate scale-up flex flex-row lg:hidden mb-16 justify-center">
-                            <img src="/svg-9.svg" className="w-2/3" />
+                            <img src="/svg-9.svg" alt="People working together at a desk" className="w-2/3" />
                         </div>
                     </Tilt>
 
