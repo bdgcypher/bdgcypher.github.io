@@ -25,8 +25,8 @@ export default function About() {
                         <h2 className="mb-10 ml-0 md:ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Creative, Excited, Hardworking</h2>
                         <p className="ml-0 md:ml-10 text-gray-700 dark:text-gray-300 text-lg md:text-2xl">
                             I am a <b>fun-loving Frontend developer, Designer,</b> and <b>Tech enthusiast</b> rapidly growing in web development skills.
-                            I am obsessed with creating <b>beautiful and fully responsive web applications</b>.
-                            I bring to the table over <b>3 years of experience</b> with languages such as Javascript, Typescript, Python, html and css. I am also familiar with frameworks and styling libraries such as <b>React.js, Nextjs, and Tailwindcss</b>.
+                            I am obsessed with creating <b>beautiful, accessible, and fully responsive web applications</b>.
+                            I bring to the table over <b>4 years of experience</b> with languages such as Javascript, Typescript, Python, html and css. I am also familiar with frameworks and styling libraries such as <b>React.js, Nextjs, and Tailwindcss</b>.
                             I create page layouts and prototype websites in <b>Figma</b>.
                             I love technology and I am creative and innovative. In my free time I love to play ultimate frisbee, do parkour/freerunning,
                             and listen to audiobooks.
