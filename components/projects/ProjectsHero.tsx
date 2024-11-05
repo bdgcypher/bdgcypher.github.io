@@ -2,7 +2,7 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { BiArrowBack } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss, SiPython, SiDjango } from 'react-icons/si'
+import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss, SiPython, SiDjango, SiJira } from 'react-icons/si'
 import { RxAccessibility } from 'react-icons/rx';
 
 export default function ProjectsHero() {
@@ -89,7 +89,7 @@ export default function ProjectsHero() {
                   </li>
                   <li className="flex">
                     <span className="mr-2">
-                      <SiPython title="Jira logo" className="text-blue-600" />
+                      <SiJira title="Jira logo" className="text-blue-600" />
                     </span>
                     Jira
                   </li>
