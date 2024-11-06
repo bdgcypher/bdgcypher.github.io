@@ -48,10 +48,10 @@ export default function Projects() {
                         longDescription="With 8000+ pages, documents, and various integrations, working for SUU has kept me busy! As a Web Developer at a university dedicated to student success 
                         and quality information, I design and prototype web components and pages, manage the rollout of new features, bug fixes, and updates to the JavaScript and SCSS codebase. 
                         I ensure seamless integration between the HTML/CSS frontend and Cascade CMS, with a strong focus on SEO, Quality Assurance, and WCAG Web Accessibility compliance. 
-                        Collaborating closely with various departments across campus through the Jira ticketing system, I address content needs, develop new pages and components, and coordinate 
-                        with the marketing / legal teams for sensitive public-facing material. My accomplishments include building new pages by gathering requirements, creating mockups, iterating, 
-                        and deploying. I am also highly involved in revamping outdated components and pages to enhance UI/UX design, promote acessibility and usability, and ensure a quality experience 
-                        for all users. I am proud to be part of an organization that is centered around helping their students learn, grow, and succeed in their future careers."
+                        Collaborating closely with various departments across campus through the Jira ticketing system, I address content needs and develop new pages and components. My accomplishments 
+                        include building new pages by gathering requirements, creating mockups, iterating, and deploying. I am also highly involved in revamping outdated components and pages to 
+                        enhance UI/UX design, promote acessibility and usability, and ensure a quality experience for all users. I am proud to be part of an organization that is centered around helping 
+                        their students learn, grow, and succeed in their future careers."
                         skillsArray={["JavaScript", "HTML", "CSS", "WCAG", "Jira"]}
                     />
                 </div>
