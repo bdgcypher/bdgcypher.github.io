@@ -3,7 +3,7 @@
 ## Welcome to my [Portfolio website!](https://benjamingoddard.me)
 
 This website is to showcase my personality, skills, and projects to potential employers, co-workers, friends, and the world.
-This is a portfolio website created using Next.js, Tailwind CSS, various animations and libraries. The website showcases my work as a Frontend React Developer and UI/UX Designer, including my projects, skills, and achievements. It also features a light and dark theme toggle switch and smooth scrolling effects.
+This is a portfolio website created using TypeScript paired with the Next.js framework and Tailwind CSS for beautiful and responsive styling. The website showcases my work as a Frontend React Developer and UI/UX Designer, including my projects, skills, and achievements. It also features some fun and modern customization such as a light and dark theme toggle switch, smooth scrolling animations, typing effects, and mouse-over hover effects and animations.
 
 ## Features
 * Home page: A brief introduction about me and my work as a Frontend React Developer.
