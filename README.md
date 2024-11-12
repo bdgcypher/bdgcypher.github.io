@@ -13,7 +13,7 @@ This is a portfolio website created using TypeScript paired with the Next.js fra
 * Smooth scrolling effects: Smoothly scrolls to different sections of the website.
 
 ## Technologies Used
-This is a React project built on the Nextjs platform with typescript. The website is comprised of 3 main pages that were prototyped in Figma and then broken up into component pieces and styled with TailwindCSS.
+This is a React project built on the Nextjs platform with typescript. The website is comprised of 3 main pages that were prototyped in Figma and then broken up into component pieces and styled with Tailwind CSS.
 * Next.js: A popular React framework for building server-side rendered web applications.
 * Tailwind CSS: A utility-first CSS framework for building responsive web designs quickly.
 * React-icons: A react library of free SVG icons for popular UI components and actions.
