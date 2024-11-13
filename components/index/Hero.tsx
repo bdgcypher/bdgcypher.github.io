@@ -23,9 +23,9 @@ export default function Hero() {
                             <div className="flex flex-row">
                                 <div className="ml-6 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
                                     Frontend 
-                                    <a href="https://github.com/bdgcypher" target="_blank" className="text-xl mx-2 text-green-600 dark:text-green-500 hover:text-green-400 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Coder /&#62;</b></a> 
+                                    <a href="https://github.com/bdgcypher" target="_blank" className="text-xl mx-2 text-green-700 dark:text-green-500 hover:text-green-400 dark:hover:text-green-300 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Coder /&#62;</b></a> 
                                     and 
-                                    <a href="https://www.figma.com/file/q1aDGIHSrdusRIj4vRAhLg/Portfolio-website-v2?node-id=0%3A1&t=wwHAduM5Or1F60Wy-1" target="_blank"  className="text-xl md:text-3xl text-indigo-500 hover:text-indigo-300 transition duration-300 ease-in-out">&#10024;<b>Designer</b>&#10024;</a>
+                                    <a href="https://www.figma.com/design/4UJozob6nRPjiynxmipGHv/Portfolio-v2?node-id=0-1&t=MMncoTIlvr8WC4Nv-1" target="_blank"  className="text-xl md:text-3xl text-indigo-500 hover:text-indigo-300 transition duration-300 ease-in-out">&#10024;<b>Designer</b>&#10024;</a>
                                 </div>
                             </div>
                             <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
