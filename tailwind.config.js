@@ -11,6 +11,7 @@ module.exports = {
         onyx: '#3C3E3E',
         raisin: '#242E33',
         primary: '#e22866',
+        primaryDark: '#af1e4e',
         secondary: '#005b93',
         tertiary: '#F6F3F7',
       },
