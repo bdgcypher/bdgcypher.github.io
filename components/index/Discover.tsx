@@ -44,7 +44,7 @@ export default function Discover() {
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
-                                src="/branch_dashboard_prototype.png"
+                                src="/branch_dashboard_prototype.webp"
                                 alt="Machine Learning website homepage with graphs and tables."
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
@@ -59,7 +59,7 @@ export default function Discover() {
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
-                                src="/axis.png"
+                                src="/axis.webp"
                                 alt="Chat website homepage with illustration of people sitting in chat bubbles"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
@@ -74,7 +74,7 @@ export default function Discover() {
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
-                                src="/xplore.jpg"
+                                src="/xplore.webp"
                                 alt="Travel website homepage with mountains in the background"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
