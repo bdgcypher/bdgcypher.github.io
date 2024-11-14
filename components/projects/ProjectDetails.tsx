@@ -3,7 +3,7 @@ import TypeIt from 'typeit-react';
 import ProjectLeft from './ProjectLeft';
 import ProjectRight from './ProjectRight';
 
-export default function Projects() {
+export default function ProjectDetails() {
 
     const startAnimation = () => {
         const elementsToAnimate = document.querySelectorAll(".discover")

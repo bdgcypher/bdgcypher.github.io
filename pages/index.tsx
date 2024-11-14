@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Hero from '../components/index/Hero'
 import Navbar from '../components/Navbar'
 import About from '../components/index/About'
-import Discover from '../components/index/Discover'
+import Projects from '../components/index/Projects'
 import Testimonials from '../components/index/Testimonials'
 import AnimatedMe from '../components/index/AnimatedMe'
 import Footer from '../components/Footer'
@@ -50,7 +50,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <About />
-        <Discover />
+        <Projects />
         <GetInTouch />
         <Testimonials />
         <AnimatedMe />

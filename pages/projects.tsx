@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
-import Projects from '../components/projects/Projects';
+import ProjectDetails from '../components/projects/ProjectDetails';
 import Footer from '../components/Footer';
 import ProjectsHero from '../components/projects/ProjectsHero';
 import Contact from '../components/index/Contact';
 
 
-export default function Discover() {
+export default function Projects() {
 
     const [darkMode, setDarkMode] = useState(false)
 
@@ -57,7 +57,7 @@ export default function Discover() {
 
             <div>
                 <ProjectsHero />
-                <Projects />
+                <ProjectDetails />
                 <Contact />
                 <Footer />
             </div>

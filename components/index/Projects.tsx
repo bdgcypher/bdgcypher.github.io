@@ -1,19 +1,19 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
 
-export default function Discover() {
+export default function Projects() {
 
     const startAnimation = () => {
-        const elementsToAnimate = document.querySelectorAll(".discover")
+        const elementsToAnimate = document.querySelectorAll(".projects")
         elementsToAnimate.forEach((element) => element.classList.add("animated"));
         console.log(elementsToAnimate)
     }
 
     return (
-        <div id="discover" className="bg-tertiary dark:bg-raisin ">
+        <div id="projects" className="bg-tertiary dark:bg-raisin ">
             <svg className="block dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FCFCFC" fillOpacity="1" d="M0,64L120,58.7C240,53,480,43,720,80C960,117,1200,203,1320,245.3L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
             <svg className="hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1E1F1F" fillOpacity="1" d="M0,64L120,58.7C240,53,480,43,720,80C960,117,1200,203,1320,245.3L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
-            <div id="discoverSection" className="page-section px-4 pb-16 mx-auto -mt-0 lg:-mt-32 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:pb-20">
+            <div id="projectsSection" className="page-section px-4 pb-16 mx-auto -mt-0 lg:-mt-32 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:pb-20">
                 <div className="flex flex-col mb-0 justify-left lg:justify-center lg:flex-row md:mb-8">
                     <div className="to-animate from-bottom mb-5 font-semibold text-3xl md:text-4xl lg:text-5xl text-black dark:text-white sm:leading-none md:mb-6 group">
                         <h2 className="inline-block text-center mx-20 md:mx-10">
@@ -40,7 +40,7 @@ export default function Discover() {
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-6">
-                    <a target="_blank" href="https://branch-dashboard-prototype.netlify.app/" aria-label="View Item" className="discover from-bottom first h-auto">
+                    <a target="_blank" href="https://branch-dashboard-prototype.netlify.app/" aria-label="View Item" className="projects from-bottom first h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
@@ -55,7 +55,7 @@ export default function Discover() {
                             </div>
                         </div>
                     </a>
-                    <a target="_blank" href="https://axis-chat.netlify.app" aria-label="View Item" className="discover from-bottom second h-auto">
+                    <a target="_blank" href="https://axis-chat.netlify.app" aria-label="View Item" className="projects from-bottom second h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
@@ -70,7 +70,7 @@ export default function Discover() {
                             </div>
                         </div>
                     </a>
-                    <a target="_blank" href="https://benjamingoddard.netlify.app/xplore" aria-label="View Item" className="discover from-bottom third h-auto">
+                    <a target="_blank" href="https://benjamingoddard.netlify.app/xplore" aria-label="View Item" className="projects from-bottom third h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
@@ -88,9 +88,9 @@ export default function Discover() {
                 </div>
                 <div className="text-center mt-8">
                     <a
-                        href="/discover"
+                        href="/projects"
                         aria-label=""
-                        className="discover from-bottom third inline-flex items-center font-semibold transition-colors duration-200 text-xl text-primary hover:text-secondary"
+                        className="projects from-bottom third inline-flex items-center font-semibold transition-colors duration-200 text-xl text-primary hover:text-secondary"
                     >
                         See more
                         <svg
