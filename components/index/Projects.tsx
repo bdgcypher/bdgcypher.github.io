@@ -92,7 +92,7 @@ export default function Projects() {
                         aria-label=""
                         className="projects from-bottom third inline-flex items-center font-semibold transition-colors duration-200 text-xl text-primary hover:text-secondary"
                     >
-                        See more
+                        View all projects
                         <svg
                             className="inline-block w-3 ml-2"
                             fill="currentColor"
