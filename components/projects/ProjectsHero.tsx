@@ -8,7 +8,7 @@ import { RxAccessibility } from 'react-icons/rx';
 export default function ProjectsHero() {
   return (
     <div id="home" className="pt-4 pl-4 bg-white dark:bg-black">
-      <a href="/" aria-label="back button" className="text-primary dark:text-primaryDark hover:text-secondary text-4xl transition ease-in-out duration-300">
+      <a href="/" aria-label="back button" className="text-primary  hover:text-secondary text-4xl transition ease-in-out duration-300">
         <BiArrowBack />
       </a>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

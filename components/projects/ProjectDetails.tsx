@@ -18,7 +18,7 @@ export default function ProjectDetails() {
                     <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true }}
                     >
                         <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#47;&#47; Check out my recent work experience and design prototypes.</p>
-                        <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#47;&#47; To view some source code click <a href="https://github.com/bdgcypher" target="_blank" className="underline font-medium hover:text-primary dark:text-primaryDark transition duration-300 ease-in-out">here.</a></p>
+                        <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#47;&#47; To view some source code click <a href="https://github.com/bdgcypher" target="_blank" className="underline font-medium hover:text-primary  transition duration-300 ease-in-out">here.</a></p>
                     </TypeIt>
                 </div>
                 <div className="flex flex-col lg:hidden h-20 mb-20 lg:mb-10">
@@ -27,7 +27,7 @@ export default function ProjectDetails() {
                         <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#47;&#47; and design prototypes.</p>
                         <br/>
                         <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#47;&#47; To view some source code click
-                            <a href="https://github.com/bdgcypher" target="_blank" className="ml-2 underline font-medium hover:text-primary dark:text-primaryDark transition duration-300 ease-in-out">here.</a>
+                            <a href="https://github.com/bdgcypher" target="_blank" className="ml-2 underline font-medium hover:text-primary  transition duration-300 ease-in-out">here.</a>
                         </p>
                     </TypeIt>
                 </div>

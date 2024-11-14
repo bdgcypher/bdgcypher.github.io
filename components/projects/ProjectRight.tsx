@@ -17,19 +17,19 @@ export default function ProjectRight(
                     </h2>
                     <span className="mx-8" />
                     <a target="_blank" aria-label="website link" href={siteLink} >
-                        <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:text-primaryDark dark:hover:text-primary dark:text-primaryDark sm:text-4xl cursor-pointer">
+                        <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary  dark:hover:text-primary  sm:text-4xl cursor-pointer">
                             <MdDevices className="ml-4" />
                         </div>
                     </a>
                     <a target="_blank" aria-label="Source code link" href={sourceCodeLink} >
-                        <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:text-primaryDark dark:hover:text-primary dark:text-primaryDark sm:text-4xl cursor-pointer">
+                        <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary  dark:hover:text-primary  sm:text-4xl cursor-pointer">
                             <BiCodeAlt className="ml-4" />
                         </div>
                     </a>
                     {designLink ? (
                         <>
                             <a target="_blank" aria-label="design link" href={designLink} >
-                                <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:text-primaryDark dark:hover:text-primary dark:text-primaryDark sm:text-4xl cursor-pointer">
+                                <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary  dark:hover:text-primary  sm:text-4xl cursor-pointer">
                                     <MdOutlinePalette className="ml-4" />
                                 </div>
                             </a>
