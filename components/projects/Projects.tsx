@@ -86,7 +86,7 @@ export default function Projects() {
                         siteLink="/tip"
                         sourceCodeLink="https://github.com/bdgcypher/TiP-web"
                         designLink={null}
-                        img1="tip.jpg"
+                        img1="tip.webp"
                         img2=""
                         img3=""
                         imgAlt1="TiP homepage with text and an image of a hand holding a microphone"
