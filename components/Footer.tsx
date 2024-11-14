@@ -49,6 +49,7 @@ const navigation = [
     },
     {
         name: 'Up',
+        href: '#',
         icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
             <BsFillArrowUpCircleFill className="text-2xl" />
         ),
