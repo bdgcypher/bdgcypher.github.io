@@ -19,7 +19,7 @@ export default function Form() {
     return (
         <div className="h-screen p-4 bg-white dark:bg-black">
             <div className="px-4">
-                <a href="/" aria-label="back button" className="text-primary hover:text-secondary text-4xl transition ease-in-out duration-300">
+                <a href="/" aria-label="back button" className="text-primary dark:text-primaryDark hover:text-secondary text-4xl transition ease-in-out duration-300">
                     <BiArrowBack />
                 </a>
                 <form onSubmit={sendEmail} className="to-animate from-bottom mx-auto mt-10 flex w-full max-w-xl space-x-3 ">

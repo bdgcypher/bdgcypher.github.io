@@ -81,7 +81,7 @@ export default function SectionNavbar() {
         <div className="fixed w-screen z-40">
             <Popover as="header" className="inset-x-1 z-100">
                 <div className="h-14 pt-4 mt-4 mx-2 rounded-full bg-white/40 dark:bg-black/80 shadow-xl backdrop-filter backdrop-blur-xl backdrop-brightness-125 lg:h-full lg:mt-0 lg:mx-0 lg:bg-transparent dark:lg:bg-transparent lg:shadow-none lg:backdrop-filter-none">
-                    <p className="absolute top-3 left-6 lg:top-10 lg:left-10 text-primary text-3xl lg:text-4xl">
+                    <p className="absolute top-3 left-6 lg:top-10 lg:left-10 text-primary dark:text-primaryDark text-3xl lg:text-4xl">
                         BG
                     </p>
                     <nav
@@ -91,14 +91,14 @@ export default function SectionNavbar() {
                         <div className="flex flex-row items-center">
                             <div className="flex items-center w-screen lg:w-auto">
                                 <div className=" justify-self-end hidden lg:flex flex-row gap-16 px-20 py-3 bg-white/40 dark:bg-black/80 backdrop-filter backdrop-blur-xl backdrop-brightness-125 text-black dark:text-white text-lg font-bold rounded-full shadow-xl dark:shadow-gray-900">
-                                    <button onClick={() => { scrollPageTo("home") }} id="homeSectionNav" tabIndex={0} className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Home</button>
-                                    <button onClick={() => { scrollPageTo("about") }} id="aboutSectionNav" tabIndex={0} className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">About</button>
-                                    <button onClick={() => { scrollPageTo("projects") }} id="projectsSectionNav" tabIndex={0} className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Projects</button>
-                                    <button onClick={() => { scrollPageTo("testimonials") }} id="testimonialsSectionNav" tabIndex={0} className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Testimonials</button>
-                                    <button onClick={() => { scrollPageTo("contact") }} id="contactSectionNav" tabIndex={0} className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Contact</button>
+                                    <button onClick={() => { scrollPageTo("home") }} id="homeSectionNav" tabIndex={0} className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Home</button>
+                                    <button onClick={() => { scrollPageTo("about") }} id="aboutSectionNav" tabIndex={0} className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">About</button>
+                                    <button onClick={() => { scrollPageTo("projects") }} id="projectsSectionNav" tabIndex={0} className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Projects</button>
+                                    <button onClick={() => { scrollPageTo("testimonials") }} id="testimonialsSectionNav" tabIndex={0} className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Testimonials</button>
+                                    <button onClick={() => { scrollPageTo("contact") }} id="contactSectionNav" tabIndex={0} className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Contact</button>
                                 </div>
                                 <div className="absolute -top-2 right-6 lg:top-1 lg:right-10 -mr-2 flex items-center lg:hidden">
-                                    <Popover.Button onClick={() => { observePage() }} className="z-100 bg-transparent rounded-md p-2 inline-flex items-center justify-center text-primary hover:text-secondary transform duration-300 rotate-0 hover:rotate-180">
+                                    <Popover.Button onClick={() => { observePage() }} className="z-100 bg-transparent rounded-md p-2 inline-flex items-center justify-center text-primary dark:text-primaryDark hover:text-secondary transform duration-300 rotate-0 hover:rotate-180">
                                         <span className="sr-only">Open main menu</span>
                                         <SlMenu className="h-6 w-6" aria-hidden="true" />
                                     </Popover.Button>
@@ -106,7 +106,7 @@ export default function SectionNavbar() {
                             </div>
                         </div>
                     </nav>
-                    <button onClick={() => { switchTheme() }} title="light/dark theme toggle" className="absolute top-6 right-10 hidden lg:block text-black dark:text-white text-2xl lg:text-3xl hover:text-primary dark:hover:text-primary hover:-translate-y-1 ease-in-out duration-300">
+                    <button onClick={() => { switchTheme() }} title="light/dark theme toggle" className="absolute top-6 right-10 hidden lg:block text-black dark:text-white text-2xl lg:text-3xl hover:text-primary dark:text-primaryDark dark:hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300">
                         {
                             darkMode === true ? (
                                 <FiMoon />
@@ -129,7 +129,7 @@ export default function SectionNavbar() {
                     <Popover.Panel focus className="absolute z-20 top-0 inset-x-0 w-screen p-2 transition transform origin-top lg:hidden">
                         <div className="rounded-lg shadow-md bg-white/40 dark:bg-black/80 backdrop-filter backdrop-blur-xl backdrop-brightness-125 overflow-hidden">
                             <div className="px-5 pt-4 flex items-center justify-between">
-                                <button onClick={() => { switchTheme() }} title="light/dark theme toggle" className="absolute top-8 left-10 block lg:hidden text-black dark:text-white text-3xl hover:text-primary hover:-translate-y-1 ease-in-out duration-300">
+                                <button onClick={() => { switchTheme() }} title="light/dark theme toggle" className="absolute top-8 left-10 block lg:hidden text-black dark:text-white text-3xl hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300">
                                     {
                                         darkMode === true ? (
                                             <FiMoon />
@@ -139,17 +139,17 @@ export default function SectionNavbar() {
                                     }
                                 </button>
                                 <div className="absolute top-6 right-8 -mr-2 outline-none">
-                                    <Popover.Button id="closeButton" className="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-primary hover:text-secondary transform duration-300 rotate-0 hover:-rotate-180 outline-none">
+                                    <Popover.Button id="closeButton" className="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-primary dark:text-primaryDark hover:text-secondary transform duration-300 rotate-0 hover:-rotate-180 outline-none">
                                         <span className="sr-only">Close menu</span>
                                         <TfiClose className="h-6 w-6 bg-transparent" aria-hidden="true" />
                                     </Popover.Button>
                                 </div>
                                 <div className="flex lg:hidden flex-col gap-16 mx-auto py-10 pl-2 text-center text-black dark:text-white text-lg font-bold">
-                                    <button onClick={() => { scrollPageTo("home") }} id="homeSectionMobileNav" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Home</button>
-                                    <button onClick={() => { scrollPageTo("about") }} id="aboutSectionMobileNav" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">About</button>
-                                    <button onClick={() => { scrollPageTo("projects") }} id="projectsSectionMobileNav" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Projects</button>
-                                    <button onClick={() => { scrollPageTo("testimonials") }} id="testimonialsSectionMobileNav" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Testimonials</button>
-                                    <button onClick={() => { scrollPageTo("contact") }} id="contactSectionMobileNav" className="active:text-primary hover:text-primary hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Contact</button>
+                                    <button onClick={() => { scrollPageTo("home") }} id="homeSectionMobileNav" className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Home</button>
+                                    <button onClick={() => { scrollPageTo("about") }} id="aboutSectionMobileNav" className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">About</button>
+                                    <button onClick={() => { scrollPageTo("projects") }} id="projectsSectionMobileNav" className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Projects</button>
+                                    <button onClick={() => { scrollPageTo("testimonials") }} id="testimonialsSectionMobileNav" className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Testimonials</button>
+                                    <button onClick={() => { scrollPageTo("contact") }} id="contactSectionMobileNav" className="active:text-primary dark:text-primaryDark hover:text-primary dark:text-primaryDark hover:-translate-y-1 ease-in-out duration-300 cursor-pointer">Contact</button>
                                 </div>
                             </div>
                         </div>

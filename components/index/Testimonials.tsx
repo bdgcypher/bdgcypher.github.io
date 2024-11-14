@@ -57,7 +57,7 @@ export default function Testimonials() {
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
                                 />
                                 <div>
-                                    <p className="font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-primary">
+                                    <p className="font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-primary dark:text-primaryDark">
                                         Scott Rafferty
                                     </p>
                                     <p className="text-sm font-medium leading-4 text-gray-700 dark:text-gray-300">
@@ -86,7 +86,7 @@ export default function Testimonials() {
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
                                 />
                                 <div>
-                                    <p className="font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-primary">
+                                    <p className="font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-primary dark:text-primaryDark">
                                         Terral Fox
                                     </p>
                                     <p className="text-sm font-medium leading-4 text-gray-700 dark:text-gray-300">
@@ -114,7 +114,7 @@ export default function Testimonials() {
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
                                 />
                                 <div>
-                                    <p className="font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-primary">
+                                    <p className="font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-primary dark:text-primaryDark">
                                         Nick Lagnese
                                     </p>
                                     <p className="text-sm font-medium leading-4 text-gray-700 dark:text-gray-300">

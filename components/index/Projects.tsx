@@ -90,7 +90,7 @@ export default function Projects() {
                     <a
                         href="/projects"
                         aria-label=""
-                        className="projects from-bottom third inline-flex items-center font-semibold transition-colors duration-200 text-xl text-primary hover:text-secondary"
+                        className="projects from-bottom third inline-flex items-center font-semibold transition-colors duration-200 text-xl text-primary dark:text-primaryDark hover:text-secondary"
                     >
                         View all projects
                         <svg
